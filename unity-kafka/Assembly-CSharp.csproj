@@ -81,7 +81,6 @@
      <None Include="Assets\packages\System.Numerics.Vectors.4.4.0\lib\netstandard2.0\System.Numerics.Vectors.xml" />
      <None Include="Assets\packages\System.Numerics.Vectors.4.4.0\ref\netstandard1.0\System.Numerics.Vectors.xml" />
      <None Include="Assets\packages\System.Memory.4.5.0\lib\netstandard1.1\System.Memory.xml" />
-     <None Include="Assets\packages\System.Buffers.4.4.0\ref\netstandard2.0\System.Buffers.xml" />
  <Reference Include="UnityEngine.AIModule">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2018.3.11f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
  </Reference>
@@ -291,9 +290,6 @@
  </Reference>
  <Reference Include="System.Buffers">
  <HintPath>D:/Repos/PersonalGithub/kafka-unity/unity-kafka/Assets/packages/System.Buffers.4.4.0/lib/netstandard2.0/System.Buffers.dll</HintPath>
- </Reference>
- <Reference Include="System.Buffers">
- <HintPath>D:/Repos/PersonalGithub/kafka-unity/unity-kafka/Assets/packages/System.Buffers.4.4.0/ref/netstandard2.0/System.Buffers.dll</HintPath>
  </Reference>
  <Reference Include="System.Memory">
  <HintPath>D:/Repos/PersonalGithub/kafka-unity/unity-kafka/Assets/packages/System.Memory.4.5.0/lib/netstandard1.1/System.Memory.dll</HintPath>
