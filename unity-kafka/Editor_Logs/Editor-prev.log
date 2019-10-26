@@ -1,0 +1,899 @@
+Initiating legacy licensing module
+LICENSE SYSTEM [20191026 12:6:39] Next license update check is after 2019-10-27T16:08:28
+
+
+LICENSE SYSTEM [20191026 12:6:39] 00325-95800-00000-AAOEM != 00325-96338-70568-AAOEM
+
+Built from '2018.3/staging' branch; Version is '2018.3.11f1 (5063218e4ab8) revision 5268257'; Using compiler version '191326128'
+OS: 'Windows 10  (10.0.0) 64bit' Language: 'en' Physical Memory: 16178 MB
+BatchMode: 0, IsHumanControllingUs: 1, StartBugReporterOnCrash: 1, Is64bit: 1, IsPro: 0
+[Package Manager] Server::Start -- Port 52522 was selected
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2018.3.11f1\Editor\Unity.exe
+-projectpath
+D:/Repos/PersonalGithub/kafka-unity/unity-kafka
+-useHub
+-hubIPC
+-cloudEnvironment
+production
+-hubSessionId
+6dc12350-f810-11e9-865d-15a597d7807f
+-accessToken
+Uv377Hj3Ia25oDVTL3QnKOLxyfgM5bNSzIrAh2F-COg002f
+Successfully changed project path to: D:/Repos/PersonalGithub/kafka-unity/unity-kafka
+D:/Repos/PersonalGithub/kafka-unity/unity-kafka
+Using Asset Import Pipeline V1.
+Initiating legacy licensing moduleLoading GUID <-> Path mappings...0.000087 seconds
+Loading Asset Database...0.010096 seconds
+Build target: OSXUniversal found and added!
+Build target: WindowsStoreApps found and added!
+Build target: Win64 found and added!
+Build target: Win found and added!
+Build target: LinuxUniversal found and added!
+Build target: Linux64 found and added!
+Build target: Linux found and added!
+Build target: iOS found and added!
+Build target: tvOS found and added!
+Build target: PS4 found and added!
+Build target: XboxOne found and added!
+Build target: Android found and added!
+Build target: WebGL found and added!
+Build target: Switch found and added!
+Build target: Lumin found and added!
+Build target: PSM found and added!
+Build target: PSP2 found and added!
+Build target: WiiU found and added!
+Build target: Web found and added!
+Build target: WebStreamed found and added!
+Build target: OSXIntel found and added!
+Build target: OSXIntel64 found and added!
+Build target: BlackBerry found and added!
+Build target: PS3 found and added!
+Build target: N3DS found and added!
+Build target: WP8 found and added!
+Build target: SamsungTV found and added!
+Build target: Tizen found and added!
+AssetDatabase consistency checks...0.023293 seconds
+Multiple plugins with the same name 'libzstd' (found at 'Assets/packages/librdkafka.redist.1.2.1/runtimes/win-x64/native/libzstd.dll' and 'Assets/packages/librdkafka.redist.1.2.1/runtimes/win-x86/native/libzstd.dll'). That means one or more plugins are set to be compatible with Editor. Only one plugin at the time can be used by Editor.
+ 
+(Filename: C:\buildslave\unity\build\Editor/Src/AssetPipeline/PluginManager.cpp Line: 150)
+
+Multiple plugins with the same name 'librdkafka' (found at 'Assets/packages/librdkafka.redist.1.2.1/runtimes/win-x86/native/librdkafka.dll' and 'Assets/packages/librdkafka.redist.1.2.1/runtimes/win-x64/native/librdkafka.dll'). That means one or more plugins are set to be compatible with Editor. Only one plugin at the time can be used by Editor.
+ 
+(Filename: C:\buildslave\unity\build\Editor/Src/AssetPipeline/PluginManager.cpp Line: 150)
+
+Multiple plugins with the same name 'librdkafkacpp' (found at 'Assets/packages/librdkafka.redist.1.2.1/runtimes/win-x64/native/librdkafkacpp.dll' and 'Assets/packages/librdkafka.redist.1.2.1/runtimes/win-x86/native/librdkafkacpp.dll'). That means one or more plugins are set to be compatible with Editor. Only one plugin at the time can be used by Editor.
+ 
+(Filename: C:\buildslave\unity\build\Editor/Src/AssetPipeline/PluginManager.cpp Line: 150)
+
+Multiple plugins with the same name 'msvcr120' (found at 'Assets/packages/librdkafka.redist.1.2.1/runtimes/win-x64/native/msvcr120.dll' and 'Assets/packages/librdkafka.redist.1.2.1/runtimes/win-x86/native/msvcr120.dll'). That means one or more plugins are set to be compatible with Editor. Only one plugin at the time can be used by Editor.
+ 
+(Filename: C:\buildslave\unity\build\Editor/Src/AssetPipeline/PluginManager.cpp Line: 150)
+
+Multiple plugins with the same name 'zlib' (found at 'Assets/packages/librdkafka.redist.1.2.1/runtimes/win-x86/native/zlib.dll' and 'Assets/packages/librdkafka.redist.1.2.1/runtimes/win-x64/native/zlib.dll'). That means one or more plugins are set to be compatible with Editor. Only one plugin at the time can be used by Editor.
+ 
+(Filename: C:\buildslave\unity\build\Editor/Src/AssetPipeline/PluginManager.cpp Line: 150)
+
+Multiple plugins with the same name 'msvcp120' (found at 'Assets/packages/librdkafka.redist.1.2.1/runtimes/win-x64/native/msvcp120.dll' and 'Assets/packages/librdkafka.redist.1.2.1/runtimes/win-x86/native/msvcp120.dll'). That means one or more plugins are set to be compatible with Editor. Only one plugin at the time can be used by Editor.
+ 
+(Filename: C:\buildslave\unity\build\Editor/Src/AssetPipeline/PluginManager.cpp Line: 150)
+
+Refreshing native plugins compatible for Editor in 36.02 ms, found 10 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[Package Manager] Done resolving packages in 0.18s seconds
+[Package Manager] Registering 36 packages:
+[Package Manager]  * Package :  com.unity.ads@2.0.8
+    (location: D:\Repos\PersonalGithub\kafka-unity\unity-kafka\Library\PackageCache\com.unity.ads@2.0.8)
+[Package Manager]  * Package :  com.unity.analytics@3.2.2
+    (location: D:\Repos\PersonalGithub\kafka-unity\unity-kafka\Library\PackageCache\com.unity.analytics@3.2.2)
+[Package Manager]  * Package :  com.unity.collab-proxy@1.2.15
+    (location: D:\Repos\PersonalGithub\kafka-unity\unity-kafka\Library\PackageCache\com.unity.collab-proxy@1.2.15)
+[Package Manager]  * Package :  com.unity.package-manager-ui@2.0.7
+    (location: D:\Repos\PersonalGithub\kafka-unity\unity-kafka\Library\PackageCache\com.unity.package-manager-ui@2.0.7)
+[Package Manager]  * Package :  com.unity.purchasing@2.0.3
+    (location: D:\Repos\PersonalGithub\kafka-unity\unity-kafka\Library\PackageCache\com.unity.purchasing@2.0.3)
+[Package Manager]  * Package :  com.unity.textmeshpro@1.3.0
+    (location: D:\Repos\PersonalGithub\kafka-unity\unity-kafka\Library\PackageCache\com.unity.textmeshpro@1.3.0)
+[Package Manager]  * Package :  com.unity.modules.ai@1.0.0
+    (location: C:\Program Files\Unity\Hub\Editor\2018.3.11f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.ai)
+[Package Manager]  * Package :  com.unity.modules.animation@1.0.0
+    (location: C:\Program Files\Unity\Hub\Editor\2018.3.11f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.animation)
+[Package Manager]  * Package :  com.unity.modules.assetbundle@1.0.0
+    (location: C:\Program Files\Unity\Hub\Editor\2018.3.11f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.assetbundle)
+[Package Manager]  * Package :  com.unity.modules.audio@1.0.0
+    (location: C:\Program Files\Unity\Hub\Editor\2018.3.11f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.audio)
+[Package Manager]  * Package :  com.unity.modules.cloth@1.0.0
+    (location: C:\Program Files\Unity\Hub\Editor\2018.3.11f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.cloth)
+[Package Manager]  * Package :  com.unity.modules.director@1.0.0
+    (location: C:\Program Files\Unity\Hub\Editor\2018.3.11f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.director)
+[Package Manager]  * Package :  com.unity.modules.imageconversion@1.0.0
+    (location: C:\Program Files\Unity\Hub\Editor\2018.3.11f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.imageconversion)
+[Package Manager]  * Package :  com.unity.modules.imgui@1.0.0
+    (location: C:\Program Files\Unity\Hub\Editor\2018.3.11f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.imgui)
+[Package Manager]  * Package :  com.unity.modules.jsonserialize@1.0.0
+    (location: C:\Program Files\Unity\Hub\Editor\2018.3.11f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.jsonserialize)
+[Package Manager]  * Package :  com.unity.modules.particlesystem@1.0.0
+    (location: C:\Program Files\Unity\Hub\Editor\2018.3.11f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.particlesystem)
+[Package Manager]  * Package :  com.unity.modules.physics@1.0.0
+    (location: C:\Program Files\Unity\Hub\Editor\2018.3.11f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.physics)
+[Package Manager]  * Package :  com.unity.modules.physics2d@1.0.0
+    (location: C:\Program Files\Unity\Hub\Editor\2018.3.11f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.physics2d)
+[Package Manager]  * Package :  com.unity.modules.screencapture@1.0.0
+    (location: C:\Program Files\Unity\Hub\Editor\2018.3.11f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.screencapture)
+[Package Manager]  * Package :  com.unity.modules.terrain@1.0.0
+    (location: C:\Program Files\Unity\Hub\Editor\2018.3.11f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.terrain)
+[Package Manager]  * Package :  com.unity.modules.terrainphysics@1.0.0
+    (location: C:\Program Files\Unity\Hub\Editor\2018.3.11f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.terrainphysics)
+[Package Manager]  * Package :  com.unity.modules.tilemap@1.0.0
+    (location: C:\Program Files\Unity\Hub\Editor\2018.3.11f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.tilemap)
+[Package Manager]  * Package :  com.unity.modules.ui@1.0.0
+    (location: C:\Program Files\Unity\Hub\Editor\2018.3.11f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.ui)
+[Package Manager]  * Package :  com.unity.modules.uielements@1.0.0
+    (location: C:\Program Files\Unity\Hub\Editor\2018.3.11f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.uielements)
+[Package Manager]  * Package :  com.unity.modules.umbra@1.0.0
+    (location: C:\Program Files\Unity\Hub\Editor\2018.3.11f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.umbra)
+[Package Manager]  * Package :  com.unity.modules.unityanalytics@1.0.0
+    (location: C:\Program Files\Unity\Hub\Editor\2018.3.11f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unityanalytics)
+[Package Manager]  * Package :  com.unity.modules.unitywebrequest@1.0.0
+    (location: C:\Program Files\Unity\Hub\Editor\2018.3.11f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unitywebrequest)
+[Package Manager]  * Package :  com.unity.modules.unitywebrequestassetbundle@1.0.0
+    (location: C:\Program Files\Unity\Hub\Editor\2018.3.11f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unitywebrequestassetbundle)
+[Package Manager]  * Package :  com.unity.modules.unitywebrequestaudio@1.0.0
+    (location: C:\Program Files\Unity\Hub\Editor\2018.3.11f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unitywebrequestaudio)
+[Package Manager]  * Package :  com.unity.modules.unitywebrequesttexture@1.0.0
+    (location: C:\Program Files\Unity\Hub\Editor\2018.3.11f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unitywebrequesttexture)
+[Package Manager]  * Package :  com.unity.modules.unitywebrequestwww@1.0.0
+    (location: C:\Program Files\Unity\Hub\Editor\2018.3.11f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unitywebrequestwww)
+[Package Manager]  * Package :  com.unity.modules.vehicles@1.0.0
+    (location: C:\Program Files\Unity\Hub\Editor\2018.3.11f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.vehicles)
+[Package Manager]  * Package :  com.unity.modules.video@1.0.0
+    (location: C:\Program Files\Unity\Hub\Editor\2018.3.11f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.video)
+[Package Manager]  * Package :  com.unity.modules.vr@1.0.0
+    (location: C:\Program Files\Unity\Hub\Editor\2018.3.11f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.vr)
+[Package Manager]  * Package :  com.unity.modules.wind@1.0.0
+    (location: C:\Program Files\Unity\Hub\Editor\2018.3.11f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.wind)
+[Package Manager]  * Package :  com.unity.modules.xr@1.0.0
+    (location: C:\Program Files\Unity\Hub\Editor\2018.3.11f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.xr)
+[Package Manager] Done registering packages in 0.01s seconds
+IsTimeToCheckForNewEditor: Update time 1572109772 current 1572109601
+Initialize engine version: 2018.3.11f1 (5063218e4ab8)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1060 with Max-Q Design (ID=0x1c20)
+    Vendor:   
+    VRAM:     6052 MB
+    Driver:   26.21.14.3136
+[EnlightenBakeManager] m_Clear = false;
+WARNING: Shader Unsupported: 'AR/TangoARRender' - Pass '' has no vertex shader
+WARNING: Shader Unsupported: 'AR/TangoARRender' - Setting to default shader.
+WARNING: Shader Unsupported: 'Hidden/VideoDecodeOSX' - Pass 'Flip_RGBARect_To_RGBA' has no vertex shader
+WARNING: Shader Unsupported: 'Hidden/VideoDecodeOSX' - Setting to default shader.
+WARNING: Shader Unsupported: 'Hidden/VideoDecodeAndroid' - Pass 'RGBAExternal_To_RGBA' has no vertex shader
+WARNING: Shader Unsupported: 'Hidden/VideoDecodeAndroid' - Setting to default shader.
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2018.3.11f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2018.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2018.3.11f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=0.0.0.0:56992
+Begin MonoManager ReloadAssembly
+Multiple plugins with the same name 'libzstd' (found at 'Assets/packages/librdkafka.redist.1.2.1/runtimes/win-x64/native/libzstd.dll' and 'Assets/packages/librdkafka.redist.1.2.1/runtimes/win-x86/native/libzstd.dll'). That means one or more plugins are set to be compatible with Editor. Only one plugin at the time can be used by Editor.
+System.Console:.cctor()
+UnityEngine.UnityLogWriter:Init() (at C:\buildslave\unity\build\Runtime\Export\UnityLogWriter.bindings.cs:26)
+UnityEngine.ClassLibraryInitializer:Init() (at C:\buildslave\unity\build\Runtime\Export\ClassLibraryInitializer.cs:11)
+
+[C:\buildslave\unity\build\Editor/Src/AssetPipeline/PluginManager.cpp line 150] 
+(Filename: C:/buildslave/unity/build/Runtime/Export/UnityLogWriter.bindings.cs Line: 26)
+
+Multiple plugins with the same name 'librdkafka' (found at 'Assets/packages/librdkafka.redist.1.2.1/runtimes/win-x86/native/librdkafka.dll' and 'Assets/packages/librdkafka.redist.1.2.1/runtimes/win-x64/native/librdkafka.dll'). That means one or more plugins are set to be compatible with Editor. Only one plugin at the time can be used by Editor.
+System.Console:.cctor()
+UnityEngine.UnityLogWriter:Init() (at C:\buildslave\unity\build\Runtime\Export\UnityLogWriter.bindings.cs:26)
+UnityEngine.ClassLibraryInitializer:Init() (at C:\buildslave\unity\build\Runtime\Export\ClassLibraryInitializer.cs:11)
+
+[C:\buildslave\unity\build\Editor/Src/AssetPipeline/PluginManager.cpp line 150] 
+(Filename: C:/buildslave/unity/build/Runtime/Export/UnityLogWriter.bindings.cs Line: 26)
+
+Multiple plugins with the same name 'librdkafkacpp' (found at 'Assets/packages/librdkafka.redist.1.2.1/runtimes/win-x64/native/librdkafkacpp.dll' and 'Assets/packages/librdkafka.redist.1.2.1/runtimes/win-x86/native/librdkafkacpp.dll'). That means one or more plugins are set to be compatible with Editor. Only one plugin at the time can be used by Editor.
+System.Console:.cctor()
+UnityEngine.UnityLogWriter:Init() (at C:\buildslave\unity\build\Runtime\Export\UnityLogWriter.bindings.cs:26)
+UnityEngine.ClassLibraryInitializer:Init() (at C:\buildslave\unity\build\Runtime\Export\ClassLibraryInitializer.cs:11)
+
+[C:\buildslave\unity\build\Editor/Src/AssetPipeline/PluginManager.cpp line 150] 
+(Filename: C:/buildslave/unity/build/Runtime/Export/UnityLogWriter.bindings.cs Line: 26)
+
+Multiple plugins with the same name 'msvcr120' (found at 'Assets/packages/librdkafka.redist.1.2.1/runtimes/win-x64/native/msvcr120.dll' and 'Assets/packages/librdkafka.redist.1.2.1/runtimes/win-x86/native/msvcr120.dll'). That means one or more plugins are set to be compatible with Editor. Only one plugin at the time can be used by Editor.
+System.Console:.cctor()
+UnityEngine.UnityLogWriter:Init() (at C:\buildslave\unity\build\Runtime\Export\UnityLogWriter.bindings.cs:26)
+UnityEngine.ClassLibraryInitializer:Init() (at C:\buildslave\unity\build\Runtime\Export\ClassLibraryInitializer.cs:11)
+
+[C:\buildslave\unity\build\Editor/Src/AssetPipeline/PluginManager.cpp line 150] 
+(Filename: C:/buildslave/unity/build/Runtime/Export/UnityLogWriter.bindings.cs Line: 26)
+
+Multiple plugins with the same name 'zlib' (found at 'Assets/packages/librdkafka.redist.1.2.1/runtimes/win-x86/native/zlib.dll' and 'Assets/packages/librdkafka.redist.1.2.1/runtimes/win-x64/native/zlib.dll'). That means one or more plugins are set to be compatible with Editor. Only one plugin at the time can be used by Editor.
+System.Console:.cctor()
+UnityEngine.UnityLogWriter:Init() (at C:\buildslave\unity\build\Runtime\Export\UnityLogWriter.bindings.cs:26)
+UnityEngine.ClassLibraryInitializer:Init() (at C:\buildslave\unity\build\Runtime\Export\ClassLibraryInitializer.cs:11)
+
+[C:\buildslave\unity\build\Editor/Src/AssetPipeline/PluginManager.cpp line 150] 
+(Filename: C:/buildslave/unity/build/Runtime/Export/UnityLogWriter.bindings.cs Line: 26)
+
+Multiple plugins with the same name 'msvcp120' (found at 'Assets/packages/librdkafka.redist.1.2.1/runtimes/win-x64/native/msvcp120.dll' and 'Assets/packages/librdkafka.redist.1.2.1/runtimes/win-x86/native/msvcp120.dll'). That means one or more plugins are set to be compatible with Editor. Only one plugin at the time can be used by Editor.
+System.Console:.cctor()
+UnityEngine.UnityLogWriter:Init() (at C:\buildslave\unity\build\Runtime\Export\UnityLogWriter.bindings.cs:26)
+UnityEngine.ClassLibraryInitializer:Init() (at C:\buildslave\unity\build\Runtime\Export\ClassLibraryInitializer.cs:11)
+
+[C:\buildslave\unity\build\Editor/Src/AssetPipeline/PluginManager.cpp line 150] 
+(Filename: C:/buildslave/unity/build/Runtime/Export/UnityLogWriter.bindings.cs Line: 26)
+
+Refreshing native plugins compatible for Editor in 34.36 ms, found 11 plugins.
+Initializing Unity.PackageManager (PackageManager) v2018.3.11 for Unity v2018.3.11f1
+Registering precompiled unity dll's ...
+Register platform support module: C:\Program Files\Unity\Hub\Editor\2018.3.11f1\Editor\Data\PlaybackEngines\AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:\Program Files\Unity\Hub\Editor\2018.3.11f1\Editor\Data\PlaybackEngines\MetroSupport/UnityEditor.WSA.Extensions.dll
+Register platform support module: C:\Program Files\Unity\Hub\Editor\2018.3.11f1\Editor\Data\PlaybackEngines\WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:\Program Files\Unity\Hub\Editor\2018.3.11f1\Editor\Data\PlaybackEngines\windowsstandalonesupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002319 seconds.
+Registering platform support modules:
+Registered platform support modules in: 0.0696055s.
+Native extension for Android target not found
+Native extension for Metro target not found
+Native extension for WebGL target not found
+Native extension for WindowsStandalone target not found
+Multiple plugins with the same name 'libzstd' (found at 'Assets/packages/librdkafka.redist.1.2.1/runtimes/win-x64/native/libzstd.dll' and 'Assets/packages/librdkafka.redist.1.2.1/runtimes/win-x86/native/libzstd.dll'). That means one or more plugins are set to be compatible with Editor. Only one plugin at the time can be used by Editor.
+ 
+(Filename: C:\buildslave\unity\build\Editor/Src/AssetPipeline/PluginManager.cpp Line: 150)
+
+Multiple plugins with the same name 'librdkafka' (found at 'Assets/packages/librdkafka.redist.1.2.1/runtimes/win-x86/native/librdkafka.dll' and 'Assets/packages/librdkafka.redist.1.2.1/runtimes/win-x64/native/librdkafka.dll'). That means one or more plugins are set to be compatible with Editor. Only one plugin at the time can be used by Editor.
+ 
+(Filename: C:\buildslave\unity\build\Editor/Src/AssetPipeline/PluginManager.cpp Line: 150)
+
+Multiple plugins with the same name 'librdkafkacpp' (found at 'Assets/packages/librdkafka.redist.1.2.1/runtimes/win-x64/native/librdkafkacpp.dll' and 'Assets/packages/librdkafka.redist.1.2.1/runtimes/win-x86/native/librdkafkacpp.dll'). That means one or more plugins are set to be compatible with Editor. Only one plugin at the time can be used by Editor.
+ 
+(Filename: C:\buildslave\unity\build\Editor/Src/AssetPipeline/PluginManager.cpp Line: 150)
+
+Multiple plugins with the same name 'msvcr120' (found at 'Assets/packages/librdkafka.redist.1.2.1/runtimes/win-x64/native/msvcr120.dll' and 'Assets/packages/librdkafka.redist.1.2.1/runtimes/win-x86/native/msvcr120.dll'). That means one or more plugins are set to be compatible with Editor. Only one plugin at the time can be used by Editor.
+ 
+(Filename: C:\buildslave\unity\build\Editor/Src/AssetPipeline/PluginManager.cpp Line: 150)
+
+Multiple plugins with the same name 'zlib' (found at 'Assets/packages/librdkafka.redist.1.2.1/runtimes/win-x86/native/zlib.dll' and 'Assets/packages/librdkafka.redist.1.2.1/runtimes/win-x64/native/zlib.dll'). That means one or more plugins are set to be compatible with Editor. Only one plugin at the time can be used by Editor.
+ 
+(Filename: C:\buildslave\unity\build\Editor/Src/AssetPipeline/PluginManager.cpp Line: 150)
+
+Multiple plugins with the same name 'msvcp120' (found at 'Assets/packages/librdkafka.redist.1.2.1/runtimes/win-x64/native/msvcp120.dll' and 'Assets/packages/librdkafka.redist.1.2.1/runtimes/win-x86/native/msvcp120.dll'). That means one or more plugins are set to be compatible with Editor. Only one plugin at the time can be used by Editor.
+ 
+(Filename: C:\buildslave\unity\build\Editor/Src/AssetPipeline/PluginManager.cpp Line: 150)
+
+Refreshing native plugins compatible for Editor in 1.16 ms, found 11 plugins.
+Preloading 1 native plugins for Editor in 0.96 ms.
+Unable to find bridge dll in registry for Microsoft Visual Studio Tools for Unity for C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/Common7/IDE/devenv.exe
+Mono: successfully reloaded assembly
+- Completed reload, in  1.161 seconds
+Registering precompiled user dll's ...
+Registered in 0.050687 seconds.
+Platform modules already initialized, skipping
+PrecompiledAssemblyException: Multiple precompiled assemblies with the same name Confluent.Kafka.dll included for the current platform. Only one assembly with the same name is allowed per platform. Assembly path: {0}
+  at UnityEditor.Scripting.ScriptCompilation.EditorBuildRules.CreateTargetAssemblies (System.Collections.Generic.IEnumerable`1[T] customScriptAssemblies, System.Collections.Generic.IEnumerable`1[T] precompiledAssemblies) [0x0028e] in C:\buildslave\unity\build\Editor\Mono\Scripting\ScriptCompilation\EditorBuildRules.cs:249 
+  at UnityEditor.Scripting.ScriptCompilation.EditorCompilation.UpdateCustomTargetAssemblies () [0x00032] in C:\buildslave\unity\build\Editor\Mono\Scripting\ScriptCompilation\EditorCompilation.cs:619 
+  at UnityEditor.Scripting.ScriptCompilation.EditorCompilation.SetAllCustomScriptAssemblyJsons (System.String[] paths) [0x002e3] in C:\buildslave\unity\build\Editor\Mono\Scripting\ScriptCompilation\EditorCompilation.cs:729 
+  at UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface.SetAllCustomScriptAssemblyJsons (System.String[] allAssemblyJsons) [0x00007] in C:\buildslave\unity\build\Editor\Mono\Scripting\ScriptCompilation\EditorCompilationInterface.cs:217 
+ 
+(Filename: C:/buildslave/unity/build/Editor/Mono/Scripting/ScriptCompilation/EditorBuildRules.cs Line: 249)
+
+PrecompiledAssemblyException: Multiple precompiled assemblies with the same name Confluent.Kafka.dll included for the current platform. Only one assembly with the same name is allowed per platform. Assembly path: {0}
+  at UnityEditor.Scripting.ScriptCompilation.EditorBuildRules.CreateTargetAssemblies (System.Collections.Generic.IEnumerable`1[T] customScriptAssemblies, System.Collections.Generic.IEnumerable`1[T] precompiledAssemblies) [0x0028e] in C:\buildslave\unity\build\Editor\Mono\Scripting\ScriptCompilation\EditorBuildRules.cs:249 
+  at UnityEditor.Scripting.ScriptCompilation.EditorCompilation.UpdateCustomTargetAssemblies () [0x00032] in C:\buildslave\unity\build\Editor\Mono\Scripting\ScriptCompilation\EditorCompilation.cs:619 
+  at UnityEditor.Scripting.ScriptCompilation.EditorCompilation.SetAllCustomScriptAssemblyJsons (System.String[] paths) [0x002e3] in C:\buildslave\unity\build\Editor\Mono\Scripting\ScriptCompilation\EditorCompilation.cs:729 
+  at UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface.SetAllCustomScriptAssemblyJsons (System.String[] allAssemblyJsons) [0x00007] in C:\buildslave\unity\build\Editor\Mono\Scripting\ScriptCompilation\EditorCompilationInterface.cs:217 
+ 
+(Filename: C:/buildslave/unity/build/Editor/Mono/Scripting/ScriptCompilation/EditorBuildRules.cs Line: 249)
+
+PrecompiledAssemblyException: Multiple precompiled assemblies with the same name Confluent.Kafka.dll included for the current platform. Only one assembly with the same name is allowed per platform. Assembly path: {0}
+  at UnityEditor.Scripting.ScriptCompilation.EditorBuildRules.CreateTargetAssemblies (System.Collections.Generic.IEnumerable`1[T] customScriptAssemblies, System.Collections.Generic.IEnumerable`1[T] precompiledAssemblies) [0x0028e] in C:\buildslave\unity\build\Editor\Mono\Scripting\ScriptCompilation\EditorBuildRules.cs:249 
+  at UnityEditor.Scripting.ScriptCompilation.EditorCompilation.UpdateCustomTargetAssemblies () [0x00032] in C:\buildslave\unity\build\Editor\Mono\Scripting\ScriptCompilation\EditorCompilation.cs:619 
+  at UnityEditor.Scripting.ScriptCompilation.EditorCompilation.SetAllCustomScriptAssemblyJsons (System.String[] paths) [0x002e3] in C:\buildslave\unity\build\Editor\Mono\Scripting\ScriptCompilation\EditorCompilation.cs:729 
+  at UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface.SetAllCustomScriptAssemblyJsons (System.String[] allAssemblyJsons) [0x00007] in C:\buildslave\unity\build\Editor\Mono\Scripting\ScriptCompilation\EditorCompilationInterface.cs:217 
+ 
+(Filename: C:/buildslave/unity/build/Editor/Mono/Scripting/ScriptCompilation/EditorBuildRules.cs Line: 249)
+
+Begin MonoManager ReloadAssembly
+Initializing Unity.PackageManager (PackageManager) v2018.3.11 for Unity v2018.3.11f1
+Registering platform support modules:
+Registered platform support modules in: 0.0360687s.
+Native extension for Android target not found
+Native extension for Metro target not found
+Native extension for WebGL target not found
+Native extension for WindowsStandalone target not found
+Multiple plugins with the same name 'libzstd' (found at 'Assets/packages/librdkafka.redist.1.2.1/runtimes/win-x64/native/libzstd.dll' and 'Assets/packages/librdkafka.redist.1.2.1/runtimes/win-x86/native/libzstd.dll'). That means one or more plugins are set to be compatible with Editor. Only one plugin at the time can be used by Editor.
+ 
+(Filename: C:\buildslave\unity\build\Editor/Src/AssetPipeline/PluginManager.cpp Line: 150)
+
+Multiple plugins with the same name 'librdkafka' (found at 'Assets/packages/librdkafka.redist.1.2.1/runtimes/win-x86/native/librdkafka.dll' and 'Assets/packages/librdkafka.redist.1.2.1/runtimes/win-x64/native/librdkafka.dll'). That means one or more plugins are set to be compatible with Editor. Only one plugin at the time can be used by Editor.
+ 
+(Filename: C:\buildslave\unity\build\Editor/Src/AssetPipeline/PluginManager.cpp Line: 150)
+
+Multiple plugins with the same name 'librdkafkacpp' (found at 'Assets/packages/librdkafka.redist.1.2.1/runtimes/win-x64/native/librdkafkacpp.dll' and 'Assets/packages/librdkafka.redist.1.2.1/runtimes/win-x86/native/librdkafkacpp.dll'). That means one or more plugins are set to be compatible with Editor. Only one plugin at the time can be used by Editor.
+ 
+(Filename: C:\buildslave\unity\build\Editor/Src/AssetPipeline/PluginManager.cpp Line: 150)
+
+Multiple plugins with the same name 'msvcr120' (found at 'Assets/packages/librdkafka.redist.1.2.1/runtimes/win-x64/native/msvcr120.dll' and 'Assets/packages/librdkafka.redist.1.2.1/runtimes/win-x86/native/msvcr120.dll'). That means one or more plugins are set to be compatible with Editor. Only one plugin at the time can be used by Editor.
+ 
+(Filename: C:\buildslave\unity\build\Editor/Src/AssetPipeline/PluginManager.cpp Line: 150)
+
+Multiple plugins with the same name 'zlib' (found at 'Assets/packages/librdkafka.redist.1.2.1/runtimes/win-x86/native/zlib.dll' and 'Assets/packages/librdkafka.redist.1.2.1/runtimes/win-x64/native/zlib.dll'). That means one or more plugins are set to be compatible with Editor. Only one plugin at the time can be used by Editor.
+ 
+(Filename: C:\buildslave\unity\build\Editor/Src/AssetPipeline/PluginManager.cpp Line: 150)
+
+Multiple plugins with the same name 'msvcp120' (found at 'Assets/packages/librdkafka.redist.1.2.1/runtimes/win-x64/native/msvcp120.dll' and 'Assets/packages/librdkafka.redist.1.2.1/runtimes/win-x86/native/msvcp120.dll'). That means one or more plugins are set to be compatible with Editor. Only one plugin at the time can be used by Editor.
+ 
+(Filename: C:\buildslave\unity\build\Editor/Src/AssetPipeline/PluginManager.cpp Line: 150)
+
+Refreshing native plugins compatible for Editor in 1.18 ms, found 11 plugins.
+Preloading 1 native plugins for Editor in 0.11 ms.
+Unable to find bridge dll in registry for Microsoft Visual Studio Tools for Unity for C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/Common7/IDE/devenv.exe
+PrecompiledAssemblyException: Multiple precompiled assemblies with the same name Confluent.Kafka.dll included for the current platform. Only one assembly with the same name is allowed per platform. Assembly path: {0}
+  at UnityEditor.Scripting.ScriptCompilation.EditorBuildRules.CreateTargetAssemblies (System.Collections.Generic.IEnumerable`1[T] customScriptAssemblies, System.Collections.Generic.IEnumerable`1[T] precompiledAssemblies) [0x0028e] in C:\buildslave\unity\build\Editor\Mono\Scripting\ScriptCompilation\EditorBuildRules.cs:249 
+  at UnityEditor.Scripting.ScriptCompilation.EditorCompilation.UpdateCustomTargetAssemblies () [0x00032] in C:\buildslave\unity\build\Editor\Mono\Scripting\ScriptCompilation\EditorCompilation.cs:619 
+  at UnityEditor.Scripting.ScriptCompilation.EditorCompilation.SetAllCustomScriptAssemblyJsons (System.String[] paths) [0x002e3] in C:\buildslave\unity\build\Editor\Mono\Scripting\ScriptCompilation\EditorCompilation.cs:729 
+  at UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface.SetAllCustomScriptAssemblyJsons (System.String[] allAssemblyJsons) [0x00007] in C:\buildslave\unity\build\Editor\Mono\Scripting\ScriptCompilation\EditorCompilationInterface.cs:217 
+ 
+(Filename: C:/buildslave/unity/build/Editor/Mono/Scripting/ScriptCompilation/EditorBuildRules.cs Line: 249)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.174 seconds
+Platform modules already initialized, skipping
+Validating Project structure ... 0.008002 seconds.
+Refresh: detecting if any assets need to be imported or removed ...
+Multiple plugins with the same name 'libzstd' (found at 'Assets/packages/librdkafka.redist.1.2.1/runtimes/win-x64/native/libzstd.dll' and 'Assets/packages/librdkafka.redist.1.2.1/runtimes/win-x86/native/libzstd.dll'). That means one or more plugins are set to be compatible with Editor. Only one plugin at the time can be used by Editor.
+ 
+(Filename: C:\buildslave\unity\build\Editor/Src/AssetPipeline/PluginManager.cpp Line: 150)
+
+Multiple plugins with the same name 'librdkafka' (found at 'Assets/packages/librdkafka.redist.1.2.1/runtimes/win-x86/native/librdkafka.dll' and 'Assets/packages/librdkafka.redist.1.2.1/runtimes/win-x64/native/librdkafka.dll'). That means one or more plugins are set to be compatible with Editor. Only one plugin at the time can be used by Editor.
+ 
+(Filename: C:\buildslave\unity\build\Editor/Src/AssetPipeline/PluginManager.cpp Line: 150)
+
+Multiple plugins with the same name 'librdkafkacpp' (found at 'Assets/packages/librdkafka.redist.1.2.1/runtimes/win-x64/native/librdkafkacpp.dll' and 'Assets/packages/librdkafka.redist.1.2.1/runtimes/win-x86/native/librdkafkacpp.dll'). That means one or more plugins are set to be compatible with Editor. Only one plugin at the time can be used by Editor.
+ 
+(Filename: C:\buildslave\unity\build\Editor/Src/AssetPipeline/PluginManager.cpp Line: 150)
+
+Multiple plugins with the same name 'msvcr120' (found at 'Assets/packages/librdkafka.redist.1.2.1/runtimes/win-x64/native/msvcr120.dll' and 'Assets/packages/librdkafka.redist.1.2.1/runtimes/win-x86/native/msvcr120.dll'). That means one or more plugins are set to be compatible with Editor. Only one plugin at the time can be used by Editor.
+ 
+(Filename: C:\buildslave\unity\build\Editor/Src/AssetPipeline/PluginManager.cpp Line: 150)
+
+Multiple plugins with the same name 'zlib' (found at 'Assets/packages/librdkafka.redist.1.2.1/runtimes/win-x86/native/zlib.dll' and 'Assets/packages/librdkafka.redist.1.2.1/runtimes/win-x64/native/zlib.dll'). That means one or more plugins are set to be compatible with Editor. Only one plugin at the time can be used by Editor.
+ 
+(Filename: C:\buildslave\unity\build\Editor/Src/AssetPipeline/PluginManager.cpp Line: 150)
+
+Multiple plugins with the same name 'msvcp120' (found at 'Assets/packages/librdkafka.redist.1.2.1/runtimes/win-x64/native/msvcp120.dll' and 'Assets/packages/librdkafka.redist.1.2.1/runtimes/win-x86/native/msvcp120.dll'). That means one or more plugins are set to be compatible with Editor. Only one plugin at the time can be used by Editor.
+ 
+(Filename: C:\buildslave\unity\build\Editor/Src/AssetPipeline/PluginManager.cpp Line: 150)
+
+Refreshing native plugins compatible for Editor in 1.17 ms, found 11 plugins.
+Preloading 1 native plugins for Editor in 0.11 ms.
+Multiple plugins with the same name 'libzstd' (found at 'Assets/packages/librdkafka.redist.1.2.1/runtimes/win-x64/native/libzstd.dll' and 'Assets/packages/librdkafka.redist.1.2.1/runtimes/win-x86/native/libzstd.dll'). That means one or more plugins are set to be compatible with Editor. Only one plugin at the time can be used by Editor.
+ 
+(Filename: C:\buildslave\unity\build\Editor/Src/AssetPipeline/PluginManager.cpp Line: 150)
+
+Multiple plugins with the same name 'librdkafka' (found at 'Assets/packages/librdkafka.redist.1.2.1/runtimes/win-x86/native/librdkafka.dll' and 'Assets/packages/librdkafka.redist.1.2.1/runtimes/win-x64/native/librdkafka.dll'). That means one or more plugins are set to be compatible with Editor. Only one plugin at the time can be used by Editor.
+ 
+(Filename: C:\buildslave\unity\build\Editor/Src/AssetPipeline/PluginManager.cpp Line: 150)
+
+Multiple plugins with the same name 'librdkafkacpp' (found at 'Assets/packages/librdkafka.redist.1.2.1/runtimes/win-x64/native/librdkafkacpp.dll' and 'Assets/packages/librdkafka.redist.1.2.1/runtimes/win-x86/native/librdkafkacpp.dll'). That means one or more plugins are set to be compatible with Editor. Only one plugin at the time can be used by Editor.
+ 
+(Filename: C:\buildslave\unity\build\Editor/Src/AssetPipeline/PluginManager.cpp Line: 150)
+
+Multiple plugins with the same name 'msvcr120' (found at 'Assets/packages/librdkafka.redist.1.2.1/runtimes/win-x64/native/msvcr120.dll' and 'Assets/packages/librdkafka.redist.1.2.1/runtimes/win-x86/native/msvcr120.dll'). That means one or more plugins are set to be compatible with Editor. Only one plugin at the time can be used by Editor.
+ 
+(Filename: C:\buildslave\unity\build\Editor/Src/AssetPipeline/PluginManager.cpp Line: 150)
+
+Multiple plugins with the same name 'zlib' (found at 'Assets/packages/librdkafka.redist.1.2.1/runtimes/win-x86/native/zlib.dll' and 'Assets/packages/librdkafka.redist.1.2.1/runtimes/win-x64/native/zlib.dll'). That means one or more plugins are set to be compatible with Editor. Only one plugin at the time can be used by Editor.
+ 
+(Filename: C:\buildslave\unity\build\Editor/Src/AssetPipeline/PluginManager.cpp Line: 150)
+
+Multiple plugins with the same name 'msvcp120' (found at 'Assets/packages/librdkafka.redist.1.2.1/runtimes/win-x64/native/msvcp120.dll' and 'Assets/packages/librdkafka.redist.1.2.1/runtimes/win-x86/native/msvcp120.dll'). That means one or more plugins are set to be compatible with Editor. Only one plugin at the time can be used by Editor.
+ 
+(Filename: C:\buildslave\unity\build\Editor/Src/AssetPipeline/PluginManager.cpp Line: 150)
+
+Refreshing native plugins compatible for Editor in 1.10 ms, found 11 plugins.
+Preloading 1 native plugins for Editor in 0.11 ms.
+
+Refresh Completed time: 0.056385s
+	Asset Scan time: 0.021067s
+	Asset Hashing: 0.000000s [0 B, 0.000000 mb/s]
+	Asset Import (Scripting) time: 0.000000s (count: 0)
+	Post Processs Assets (Scripting) time: 0.000000s
+	Asset Rehashing: 0.000000s [0 B, 0.000000 mb/s]
+	Asset Import (Non Scripting) time: 0.000000s (count: 0)
+	Post Process Assets (Non Scripting) time: 0.000000s
+	Dependent Assets to Import Queue time: 0.000000s
+
+WARNING: Shader Unsupported: 'AR/TangoARRender' - Pass '' has no vertex shader
+WARNING: Shader Unsupported: 'AR/TangoARRender' - Setting to default shader.
+WARNING: Shader Unsupported: 'Hidden/VideoDecodeAndroid' - Pass 'RGBAExternal_To_RGBA' has no vertex shader
+WARNING: Shader Unsupported: 'Hidden/VideoDecodeAndroid' - Setting to default shader.
+WARNING: Shader Unsupported: 'Hidden/VideoDecodeOSX' - Pass 'Flip_RGBARect_To_RGBA' has no vertex shader
+WARNING: Shader Unsupported: 'Hidden/VideoDecodeOSX' - Setting to default shader.
+Warming cache for 780 main assets: 0.004535 seconds elapsed
+Initializing Unity extensions:
+Updating C:/Program Files/Unity/Hub/Editor/2018.3.11f1/Editor/Data/PlaybackEngines/MetroSupport/Managed/UAP/UnityEngine.Networking.dll - GUID: 52a206b72a8f4f749c28d8b18b42dd19...
+ done. [Time: 167.768800 ms] 
+Unloading 350 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 145.4 MB.
+System memory in use after: 143.7 MB.
+
+Unloading 385 unused Assets to reduce memory usage. Loaded Objects now: 931.
+Total: 3.711900 ms (FindLiveObjects: 0.248100 ms CreateObjectMapping: 0.024500 ms MarkObjects: 2.124800 ms  DeleteObjects: 1.314200 ms)
+
+PrecompiledAssemblyException: Multiple precompiled assemblies with the same name Confluent.Kafka.dll included for the current platform. Only one assembly with the same name is allowed per platform. Assembly path: {0}
+  at UnityEditor.Scripting.ScriptCompilation.EditorBuildRules.CreateTargetAssemblies (System.Collections.Generic.IEnumerable`1[T] customScriptAssemblies, System.Collections.Generic.IEnumerable`1[T] precompiledAssemblies) [0x0028e] in C:\buildslave\unity\build\Editor\Mono\Scripting\ScriptCompilation\EditorBuildRules.cs:249 
+  at UnityEditor.Scripting.ScriptCompilation.EditorCompilation.UpdateCustomTargetAssemblies () [0x00032] in C:\buildslave\unity\build\Editor\Mono\Scripting\ScriptCompilation\EditorCompilation.cs:619 
+  at UnityEditor.Scripting.ScriptCompilation.EditorCompilation.SetAllCustomScriptAssemblyJsons (System.String[] paths) [0x002e3] in C:\buildslave\unity\build\Editor\Mono\Scripting\ScriptCompilation\EditorCompilation.cs:729 
+  at UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface.SetAllCustomScriptAssemblyJsons (System.String[] allAssemblyJsons) [0x00007] in C:\buildslave\unity\build\Editor\Mono\Scripting\ScriptCompilation\EditorCompilationInterface.cs:217 
+UnityEditor.AssetDatabase:ImportAsset(String, ImportAssetOptions)
+UnityEditor.WSA.TargetExtension:RegisterAdditionalUnityExtensions() (at C:\buildslave\unity\build\PlatformDependent\MetroPlayer\Extensions\Managed\ExtensionModule.cs:89)
+UnityEditor.Modules.ModuleManager:RegisterAdditionalUnityExtensions() (at C:\buildslave\unity\build\Editor\Mono\Modules\ModuleManager.cs:155)
+ 
+(Filename: C:/buildslave/unity/build/Editor/Mono/Scripting/ScriptCompilation/EditorBuildRules.cs Line: 249)
+
+PrecompiledAssemblyException: Multiple precompiled assemblies with the same name Confluent.Kafka.dll included for the current platform. Only one assembly with the same name is allowed per platform. Assembly path: {0}
+  at UnityEditor.Scripting.ScriptCompilation.EditorBuildRules.CreateTargetAssemblies (System.Collections.Generic.IEnumerable`1[T] customScriptAssemblies, System.Collections.Generic.IEnumerable`1[T] precompiledAssemblies) [0x0028e] in C:\buildslave\unity\build\Editor\Mono\Scripting\ScriptCompilation\EditorBuildRules.cs:249 
+  at UnityEditor.Scripting.ScriptCompilation.EditorCompilation.UpdateCustomTargetAssemblies () [0x00032] in C:\buildslave\unity\build\Editor\Mono\Scripting\ScriptCompilation\EditorCompilation.cs:619 
+  at UnityEditor.Scripting.ScriptCompilation.EditorCompilation.SetAllCustomScriptAssemblyJsons (System.String[] paths) [0x002e3] in C:\buildslave\unity\build\Editor\Mono\Scripting\ScriptCompilation\EditorCompilation.cs:729 
+  at UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface.SetAllCustomScriptAssemblyJsons (System.String[] allAssemblyJsons) [0x00007] in C:\buildslave\unity\build\Editor\Mono\Scripting\ScriptCompilation\EditorCompilationInterface.cs:217 
+UnityEditor.AssetDatabase:ImportAsset(String, ImportAssetOptions)
+UnityEditor.WSA.TargetExtension:RegisterAdditionalUnityExtensions() (at C:\buildslave\unity\build\PlatformDependent\MetroPlayer\Extensions\Managed\ExtensionModule.cs:89)
+UnityEditor.Modules.ModuleManager:RegisterAdditionalUnityExtensions() (at C:\buildslave\unity\build\Editor\Mono\Modules\ModuleManager.cs:155)
+ 
+(Filename: C:/buildslave/unity/build/Editor/Mono/Scripting/ScriptCompilation/EditorBuildRules.cs Line: 249)
+
+Script Compilation Pipeline Post Process Assets time: 0.072574s
+Assembly Updater Post Process Assets time: 0.000013s
+Multiple plugins with the same name 'libzstd' (found at 'Assets/packages/librdkafka.redist.1.2.1/runtimes/win-x64/native/libzstd.dll' and 'Assets/packages/librdkafka.redist.1.2.1/runtimes/win-x86/native/libzstd.dll'). That means one or more plugins are set to be compatible with Editor. Only one plugin at the time can be used by Editor.
+UnityEditor.AssetDatabase:ImportAsset(String, ImportAssetOptions)
+UnityEditor.WSA.TargetExtension:RegisterAdditionalUnityExtensions() (at C:\buildslave\unity\build\PlatformDependent\MetroPlayer\Extensions\Managed\ExtensionModule.cs:89)
+UnityEditor.Modules.ModuleManager:RegisterAdditionalUnityExtensions() (at C:\buildslave\unity\build\Editor\Mono\Modules\ModuleManager.cs:155)
+
+[C:\buildslave\unity\build\Editor/Src/AssetPipeline/PluginManager.cpp line 150] 
+(Filename: C:/buildslave/unity/build/PlatformDependent/MetroPlayer/Extensions/Managed/ExtensionModule.cs Line: 89)
+
+Multiple plugins with the same name 'librdkafka' (found at 'Assets/packages/librdkafka.redist.1.2.1/runtimes/win-x86/native/librdkafka.dll' and 'Assets/packages/librdkafka.redist.1.2.1/runtimes/win-x64/native/librdkafka.dll'). That means one or more plugins are set to be compatible with Editor. Only one plugin at the time can be used by Editor.
+UnityEditor.AssetDatabase:ImportAsset(String, ImportAssetOptions)
+UnityEditor.WSA.TargetExtension:RegisterAdditionalUnityExtensions() (at C:\buildslave\unity\build\PlatformDependent\MetroPlayer\Extensions\Managed\ExtensionModule.cs:89)
+UnityEditor.Modules.ModuleManager:RegisterAdditionalUnityExtensions() (at C:\buildslave\unity\build\Editor\Mono\Modules\ModuleManager.cs:155)
+
+[C:\buildslave\unity\build\Editor/Src/AssetPipeline/PluginManager.cpp line 150] 
+(Filename: C:/buildslave/unity/build/PlatformDependent/MetroPlayer/Extensions/Managed/ExtensionModule.cs Line: 89)
+
+Multiple plugins with the same name 'librdkafkacpp' (found at 'Assets/packages/librdkafka.redist.1.2.1/runtimes/win-x64/native/librdkafkacpp.dll' and 'Assets/packages/librdkafka.redist.1.2.1/runtimes/win-x86/native/librdkafkacpp.dll'). That means one or more plugins are set to be compatible with Editor. Only one plugin at the time can be used by Editor.
+UnityEditor.AssetDatabase:ImportAsset(String, ImportAssetOptions)
+UnityEditor.WSA.TargetExtension:RegisterAdditionalUnityExtensions() (at C:\buildslave\unity\build\PlatformDependent\MetroPlayer\Extensions\Managed\ExtensionModule.cs:89)
+UnityEditor.Modules.ModuleManager:RegisterAdditionalUnityExtensions() (at C:\buildslave\unity\build\Editor\Mono\Modules\ModuleManager.cs:155)
+
+[C:\buildslave\unity\build\Editor/Src/AssetPipeline/PluginManager.cpp line 150] 
+(Filename: C:/buildslave/unity/build/PlatformDependent/MetroPlayer/Extensions/Managed/ExtensionModule.cs Line: 89)
+
+Multiple plugins with the same name 'msvcr120' (found at 'Assets/packages/librdkafka.redist.1.2.1/runtimes/win-x64/native/msvcr120.dll' and 'Assets/packages/librdkafka.redist.1.2.1/runtimes/win-x86/native/msvcr120.dll'). That means one or more plugins are set to be compatible with Editor. Only one plugin at the time can be used by Editor.
+UnityEditor.AssetDatabase:ImportAsset(String, ImportAssetOptions)
+UnityEditor.WSA.TargetExtension:RegisterAdditionalUnityExtensions() (at C:\buildslave\unity\build\PlatformDependent\MetroPlayer\Extensions\Managed\ExtensionModule.cs:89)
+UnityEditor.Modules.ModuleManager:RegisterAdditionalUnityExtensions() (at C:\buildslave\unity\build\Editor\Mono\Modules\ModuleManager.cs:155)
+
+[C:\buildslave\unity\build\Editor/Src/AssetPipeline/PluginManager.cpp line 150] 
+(Filename: C:/buildslave/unity/build/PlatformDependent/MetroPlayer/Extensions/Managed/ExtensionModule.cs Line: 89)
+
+Multiple plugins with the same name 'zlib' (found at 'Assets/packages/librdkafka.redist.1.2.1/runtimes/win-x86/native/zlib.dll' and 'Assets/packages/librdkafka.redist.1.2.1/runtimes/win-x64/native/zlib.dll'). That means one or more plugins are set to be compatible with Editor. Only one plugin at the time can be used by Editor.
+UnityEditor.AssetDatabase:ImportAsset(String, ImportAssetOptions)
+UnityEditor.WSA.TargetExtension:RegisterAdditionalUnityExtensions() (at C:\buildslave\unity\build\PlatformDependent\MetroPlayer\Extensions\Managed\ExtensionModule.cs:89)
+UnityEditor.Modules.ModuleManager:RegisterAdditionalUnityExtensions() (at C:\buildslave\unity\build\Editor\Mono\Modules\ModuleManager.cs:155)
+
+[C:\buildslave\unity\build\Editor/Src/AssetPipeline/PluginManager.cpp line 150] 
+(Filename: C:/buildslave/unity/build/PlatformDependent/MetroPlayer/Extensions/Managed/ExtensionModule.cs Line: 89)
+
+Multiple plugins with the same name 'msvcp120' (found at 'Assets/packages/librdkafka.redist.1.2.1/runtimes/win-x64/native/msvcp120.dll' and 'Assets/packages/librdkafka.redist.1.2.1/runtimes/win-x86/native/msvcp120.dll'). That means one or more plugins are set to be compatible with Editor. Only one plugin at the time can be used by Editor.
+UnityEditor.AssetDatabase:ImportAsset(String, ImportAssetOptions)
+UnityEditor.WSA.TargetExtension:RegisterAdditionalUnityExtensions() (at C:\buildslave\unity\build\PlatformDependent\MetroPlayer\Extensions\Managed\ExtensionModule.cs:89)
+UnityEditor.Modules.ModuleManager:RegisterAdditionalUnityExtensions() (at C:\buildslave\unity\build\Editor\Mono\Modules\ModuleManager.cs:155)
+
+[C:\buildslave\unity\build\Editor/Src/AssetPipeline/PluginManager.cpp line 150] 
+(Filename: C:/buildslave/unity/build/PlatformDependent/MetroPlayer/Extensions/Managed/ExtensionModule.cs Line: 89)
+
+Refreshing native plugins compatible for Editor in 2.17 ms, found 11 plugins.
+Preloading 1 native plugins for Editor in 0.12 ms.
+ 'C:/Program Files/Unity/Hub/Editor/2018.3.11f1/Editor/Data/UnityExtensions/Unity/Timeline/Runtime/UnityEngine.Timeline.dll'  GUID: 6a10b2909283487f913b00d94cd3faf5
+ 'C:/Program Files/Unity/Hub/Editor/2018.3.11f1/Editor/Data/UnityExtensions/Unity/TestRunner/portable/nunit.framework.dll'  GUID: 405b9b51bb344a128608d968297df79c
+ 'C:/Program Files/Unity/Hub/Editor/2018.3.11f1/Editor/Data/UnityExtensions/Unity/GUISystem/Standalone/UnityEngine.UI.dll'  GUID: f70555f144d8491a825f0804e09c671c
+ 'C:/Program Files/Unity/Hub/Editor/2018.3.11f1/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll'  GUID: f5f67c52d1564df4a8936ccd202a3bd8
+ 'C:/Program Files/Unity/Hub/Editor/2018.3.11f1/Editor/Data/UnityExtensions/Unity/Timeline/RuntimeEditor/UnityEngine.Timeline.dll'  GUID: 844f815391db42d49455cbf1a7bfc434
+ 'C:/Program Files/Unity/Hub/Editor/2018.3.11f1/Editor/Data/UnityExtensions/Unity/Networking/Standalone/UnityEngine.Networking.dll'  GUID: dc443db3e92b4983b9738c1131f555cb
+ 'C:/Program Files/Unity/Hub/Editor/2018.3.11f1/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/Runtime/UnityEngine.SpatialTracking.dll'  GUID: ed7343f30e3843b3afda8f8b02669cea
+ 'C:/Program Files/Unity/Hub/Editor/2018.3.11f1/Editor/Data/UnityExtensions/Unity/UnityGoogleAudioSpatializer/Editor/UnityEditor.GoogleAudioSpatializer.dll'  GUID: 4a3ecb1425d14502837abea459cf2b70
+ 'C:/Program Files/Unity/Hub/Editor/2018.3.11f1/Editor/Data/UnityExtensions/Unity/Networking/Editor/UnityEditor.Networking.dll'  GUID: 5f32cd94baa94578a686d4b9d6b660f7
+ 'C:/Program Files/Unity/Hub/Editor/2018.3.11f1/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/Editor/UnityEditor.SpatialTracking.dll'  GUID: b5da970776034f77a070d99423d68791
+ 'C:/Program Files/Unity/Hub/Editor/2018.3.11f1/Editor/Data/PlaybackEngines/MetroSupport/Managed/UAP/UnityEngine.Networking.dll'  GUID: 52a206b72a8f4f749c28d8b18b42dd19
+ 'C:/Program Files/Unity/Hub/Editor/2018.3.11f1/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll'  GUID: 870353891bb340e2b2a9c8707e7419ba
+ 'C:/Program Files/Unity/Hub/Editor/2018.3.11f1/Editor/Data/UnityExtensions/Unity/TestRunner/UnityEngine.TestRunner.dll'  GUID: 53ebcfaa2e1e4e2dbc85882cd5a73fa1
+ 'C:/Program Files/Unity/Hub/Editor/2018.3.11f1/Editor/Data/UnityExtensions/Unity/UnityGoogleAudioSpatializer/RuntimeEditor/UnityEngine.GoogleAudioSpatializer.dll'  GUID: ead147da21254ff9a0a936bdd75e1680
+ 'C:/Program Files/Unity/Hub/Editor/2018.3.11f1/Editor/Data/UnityExtensions/Unity/UnityGoogleAudioSpatializer/Runtime/UnityEngine.GoogleAudioSpatializer.dll'  GUID: e4f4cf1b9b434137a499903a7a1d651a
+ 'C:/Program Files/Unity/Hub/Editor/2018.3.11f1/Editor/Data/UnityExtensions/Unity/UnityVR/Editor/UnityEditor.VR.dll'  GUID: 4ba2329b63d54f0187bcaa12486b1b0f
+ 'C:/Program Files/Unity/Hub/Editor/2018.3.11f1/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll'  GUID: 3a84de5cd0624681b6b6dcd8921d912a
+ 'C:/Program Files/Unity/Hub/Editor/2018.3.11f1/Editor/Data/UnityExtensions/Unity/GUISystem/Editor/UnityEditor.UI.dll'  GUID: 80a3616ca19596e4da0f10f14d241e9f
+ 'C:/Program Files/Unity/Hub/Editor/2018.3.11f1/Editor/Data/UnityExtensions/Unity/TestRunner/Editor/UnityEditor.TestRunner.dll'  GUID: 4113173d5e95493ab8765d7b08371de4
+ 'C:/Program Files/Unity/Hub/Editor/2018.3.11f1/Editor/Data/UnityExtensions/Unity/TestRunner/net35/unity-custom/nunit.framework.dll'  GUID: 4b3fa4bde7f1451a8218c03ee6a8ded8
+ 'C:/Program Files/Unity/Hub/Editor/2018.3.11f1/Editor/Data/UnityExtensions/Unity/Timeline/Editor/UnityEditor.Timeline.dll'  GUID: 7668179ede524d6396c8b7d84461ea29
+PrecompiledAssemblyException: Multiple precompiled assemblies with the same name Confluent.Kafka.dll included for the current platform. Only one assembly with the same name is allowed per platform. Assembly path: {0}
+  at UnityEditor.Scripting.ScriptCompilation.EditorBuildRules.CreateTargetAssemblies (System.Collections.Generic.IEnumerable`1[T] customScriptAssemblies, System.Collections.Generic.IEnumerable`1[T] precompiledAssemblies) [0x0028e] in C:\buildslave\unity\build\Editor\Mono\Scripting\ScriptCompilation\EditorBuildRules.cs:249 
+  at UnityEditor.Scripting.ScriptCompilation.EditorCompilation.UpdateCustomTargetAssemblies () [0x00032] in C:\buildslave\unity\build\Editor\Mono\Scripting\ScriptCompilation\EditorCompilation.cs:619 
+  at UnityEditor.Scripting.ScriptCompilation.EditorCompilation.SetAllCustomScriptAssemblyJsons (System.String[] paths) [0x002e3] in C:\buildslave\unity\build\Editor\Mono\Scripting\ScriptCompilation\EditorCompilation.cs:729 
+  at UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface.SetAllCustomScriptAssemblyJsons (System.String[] allAssemblyJsons) [0x00007] in C:\buildslave\unity\build\Editor\Mono\Scripting\ScriptCompilation\EditorCompilationInterface.cs:217 
+ 
+(Filename: C:/buildslave/unity/build/Editor/Mono/Scripting/ScriptCompilation/EditorBuildRules.cs Line: 249)
+
+Load scene 'Assets/Scenes/SampleScene.unity' time: 0.016000 ms 
+LightmapEditorSettings: switching bake backend from 1 to 0.
+Unloading 103 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 134.7 MB.
+System memory in use after: 134.8 MB.
+
+Unloading 57 unused Assets to reduce memory usage. Loaded Objects now: 1003.
+Total: 2.377700 ms (FindLiveObjects: 0.235400 ms CreateObjectMapping: 0.013900 ms MarkObjects: 2.108400 ms  DeleteObjects: 0.019300 ms)
+
+<RI> Initialized touch support.
+<RI> Initialized touch support.
+<RI> Initialized touch support.
+<RI> Initialized touch support.
+<RI> Initialized touch support.
+<RI> Initialized touch support.
+<RI> Initialized touch support.
+Multiple plugins with the same name 'libzstd' (found at 'Assets/packages/librdkafka.redist.1.2.1/runtimes/win-x64/native/libzstd.dll' and 'Assets/packages/librdkafka.redist.1.2.1/runtimes/win-x86/native/libzstd.dll'). That means one or more plugins are set to be compatible with Editor. Only one plugin at the time can be used by Editor.
+Microsoft.Win32.RegistryKey:GetSubKeyNames()
+UnityEditor.RiderPathLocator:CollectPathsFromRegistry(String, List`1) (at C:\buildslave\unity\build\Editor\Mono\SyncRiderProject.cs:131)
+UnityEditor.RiderPathLocator:CollectRiderInfosWindows() (at C:\buildslave\unity\build\Editor\Mono\SyncRiderProject.cs:116)
+UnityEditor.RiderPathLocator:GetAllRiderPaths() (at C:\buildslave\unity\build\Editor\Mono\SyncRiderProject.cs:154)
+UnityEditor.SyncRiderProject:PathCallback() (at C:\buildslave\unity\build\Editor\Mono\SyncRiderProject.cs:21)
+UnityEditorInternal.ScriptEditorUtility:GetFoundScriptEditorPaths(RuntimePlatform) (at C:\buildslave\unity\build\Editor\Mono\ScriptEditorUtility.cs:154)
+UnityEditor.PreferencesProvider:ReadPreferences() (at C:\buildslave\unity\build\Editor\Mono\PreferencesWindow\PreferencesSettingsProviders.cs:1166)
+UnityEditor.PreferencesProvider:.ctor(String, IEnumerable`1) (at C:\buildslave\unity\build\Editor\Mono\PreferencesWindow\PreferencesSettingsProviders.cs:194)
+UnityEditor.PreferencesProvider:CreateGeneralProvider() (at C:\buildslave\unity\build\Editor\Mono\PreferencesWindow\PreferencesSettingsProviders.cs:200)
+UnityEditor.SettingsService:<FetchSettingProviderFromAttribute>m__2(MethodWithAttribute) (at C:\buildslave\unity\build\Editor\Mono\Settings\SettingsService.cs:73)
+System.Linq.SelectListIterator`2:MoveNext()
+System.Linq.ConcatIterator`1:MoveNext()
+System.Linq.WhereEnumerableIterator`1:ToArray()
+System.Linq.Enumerable:ToArray(IEnumerable`1)
+UnityEditor.SettingsService:FetchSettingsProviders() (at C:\buildslave\unity\build\Editor\Mono\Settings\SettingsService.cs:41)
+UnityEditor.SettingsWindow:Init() (at C:\buildslave\unity\build\Editor\Mono\Settings\SettingsWindow.cs:188)
+UnityEditor.SettingsWindow:OnEnable() (at C:\buildslave\unity\build\Editor\Mono\Settings\SettingsWindow.cs:99)
+UnityEditorInternal.InternalEditorUtility:LoadSerializedFileAndForget(String)
+UnityEditor.WindowLayout:LoadWindowLayout(String, Boolean) (at C:\buildslave\unity\build\Editor\Mono\GUI\WindowLayout.cs:495)
+
+[C:\buildslave\unity\build\Editor/Src/AssetPipeline/PluginManager.cpp line 150] 
+(Filename: C:/buildslave/unity/build/Editor/Mono/SyncRiderProject.cs Line: 131)
+
+Multiple plugins with the same name 'librdkafka' (found at 'Assets/packages/librdkafka.redist.1.2.1/runtimes/win-x86/native/librdkafka.dll' and 'Assets/packages/librdkafka.redist.1.2.1/runtimes/win-x64/native/librdkafka.dll'). That means one or more plugins are set to be compatible with Editor. Only one plugin at the time can be used by Editor.
+Microsoft.Win32.RegistryKey:GetSubKeyNames()
+UnityEditor.RiderPathLocator:CollectPathsFromRegistry(String, List`1) (at C:\buildslave\unity\build\Editor\Mono\SyncRiderProject.cs:131)
+UnityEditor.RiderPathLocator:CollectRiderInfosWindows() (at C:\buildslave\unity\build\Editor\Mono\SyncRiderProject.cs:116)
+UnityEditor.RiderPathLocator:GetAllRiderPaths() (at C:\buildslave\unity\build\Editor\Mono\SyncRiderProject.cs:154)
+UnityEditor.SyncRiderProject:PathCallback() (at C:\buildslave\unity\build\Editor\Mono\SyncRiderProject.cs:21)
+UnityEditorInternal.ScriptEditorUtility:GetFoundScriptEditorPaths(RuntimePlatform) (at C:\buildslave\unity\build\Editor\Mono\ScriptEditorUtility.cs:154)
+UnityEditor.PreferencesProvider:ReadPreferences() (at C:\buildslave\unity\build\Editor\Mono\PreferencesWindow\PreferencesSettingsProviders.cs:1166)
+UnityEditor.PreferencesProvider:.ctor(String, IEnumerable`1) (at C:\buildslave\unity\build\Editor\Mono\PreferencesWindow\PreferencesSettingsProviders.cs:194)
+UnityEditor.PreferencesProvider:CreateGeneralProvider() (at C:\buildslave\unity\build\Editor\Mono\PreferencesWindow\PreferencesSettingsProviders.cs:200)
+UnityEditor.SettingsService:<FetchSettingProviderFromAttribute>m__2(MethodWithAttribute) (at C:\buildslave\unity\build\Editor\Mono\Settings\SettingsService.cs:73)
+System.Linq.SelectListIterator`2:MoveNext()
+System.Linq.ConcatIterator`1:MoveNext()
+System.Linq.WhereEnumerableIterator`1:ToArray()
+System.Linq.Enumerable:ToArray(IEnumerable`1)
+UnityEditor.SettingsService:FetchSettingsProviders() (at C:\buildslave\unity\build\Editor\Mono\Settings\SettingsService.cs:41)
+UnityEditor.SettingsWindow:Init() (at C:\buildslave\unity\build\Editor\Mono\Settings\SettingsWindow.cs:188)
+UnityEditor.SettingsWindow:OnEnable() (at C:\buildslave\unity\build\Editor\Mono\Settings\SettingsWindow.cs:99)
+UnityEditorInternal.InternalEditorUtility:LoadSerializedFileAndForget(String)
+UnityEditor.WindowLayout:LoadWindowLayout(String, Boolean) (at C:\buildslave\unity\build\Editor\Mono\GUI\WindowLayout.cs:495)
+
+[C:\buildslave\unity\build\Editor/Src/AssetPipeline/PluginManager.cpp line 150] 
+(Filename: C:/buildslave/unity/build/Editor/Mono/SyncRiderProject.cs Line: 131)
+
+Multiple plugins with the same name 'librdkafkacpp' (found at 'Assets/packages/librdkafka.redist.1.2.1/runtimes/win-x64/native/librdkafkacpp.dll' and 'Assets/packages/librdkafka.redist.1.2.1/runtimes/win-x86/native/librdkafkacpp.dll'). That means one or more plugins are set to be compatible with Editor. Only one plugin at the time can be used by Editor.
+Microsoft.Win32.RegistryKey:GetSubKeyNames()
+UnityEditor.RiderPathLocator:CollectPathsFromRegistry(String, List`1) (at C:\buildslave\unity\build\Editor\Mono\SyncRiderProject.cs:131)
+UnityEditor.RiderPathLocator:CollectRiderInfosWindows() (at C:\buildslave\unity\build\Editor\Mono\SyncRiderProject.cs:116)
+UnityEditor.RiderPathLocator:GetAllRiderPaths() (at C:\buildslave\unity\build\Editor\Mono\SyncRiderProject.cs:154)
+UnityEditor.SyncRiderProject:PathCallback() (at C:\buildslave\unity\build\Editor\Mono\SyncRiderProject.cs:21)
+UnityEditorInternal.ScriptEditorUtility:GetFoundScriptEditorPaths(RuntimePlatform) (at C:\buildslave\unity\build\Editor\Mono\ScriptEditorUtility.cs:154)
+UnityEditor.PreferencesProvider:ReadPreferences() (at C:\buildslave\unity\build\Editor\Mono\PreferencesWindow\PreferencesSettingsProviders.cs:1166)
+UnityEditor.PreferencesProvider:.ctor(String, IEnumerable`1) (at C:\buildslave\unity\build\Editor\Mono\PreferencesWindow\PreferencesSettingsProviders.cs:194)
+UnityEditor.PreferencesProvider:CreateGeneralProvider() (at C:\buildslave\unity\build\Editor\Mono\PreferencesWindow\PreferencesSettingsProviders.cs:200)
+UnityEditor.SettingsService:<FetchSettingProviderFromAttribute>m__2(MethodWithAttribute) (at C:\buildslave\unity\build\Editor\Mono\Settings\SettingsService.cs:73)
+System.Linq.SelectListIterator`2:MoveNext()
+System.Linq.ConcatIterator`1:MoveNext()
+System.Linq.WhereEnumerableIterator`1:ToArray()
+System.Linq.Enumerable:ToArray(IEnumerable`1)
+UnityEditor.SettingsService:FetchSettingsProviders() (at C:\buildslave\unity\build\Editor\Mono\Settings\SettingsService.cs:41)
+UnityEditor.SettingsWindow:Init() (at C:\buildslave\unity\build\Editor\Mono\Settings\SettingsWindow.cs:188)
+UnityEditor.SettingsWindow:OnEnable() (at C:\buildslave\unity\build\Editor\Mono\Settings\SettingsWindow.cs:99)
+UnityEditorInternal.InternalEditorUtility:LoadSerializedFileAndForget(String)
+UnityEditor.WindowLayout:LoadWindowLayout(String, Boolean) (at C:\buildslave\unity\build\Editor\Mono\GUI\WindowLayout.cs:495)
+
+[C:\buildslave\unity\build\Editor/Src/AssetPipeline/PluginManager.cpp line 150] 
+(Filename: C:/buildslave/unity/build/Editor/Mono/SyncRiderProject.cs Line: 131)
+
+Multiple plugins with the same name 'msvcr120' (found at 'Assets/packages/librdkafka.redist.1.2.1/runtimes/win-x64/native/msvcr120.dll' and 'Assets/packages/librdkafka.redist.1.2.1/runtimes/win-x86/native/msvcr120.dll'). That means one or more plugins are set to be compatible with Editor. Only one plugin at the time can be used by Editor.
+Microsoft.Win32.RegistryKey:GetSubKeyNames()
+UnityEditor.RiderPathLocator:CollectPathsFromRegistry(String, List`1) (at C:\buildslave\unity\build\Editor\Mono\SyncRiderProject.cs:131)
+UnityEditor.RiderPathLocator:CollectRiderInfosWindows() (at C:\buildslave\unity\build\Editor\Mono\SyncRiderProject.cs:116)
+UnityEditor.RiderPathLocator:GetAllRiderPaths() (at C:\buildslave\unity\build\Editor\Mono\SyncRiderProject.cs:154)
+UnityEditor.SyncRiderProject:PathCallback() (at C:\buildslave\unity\build\Editor\Mono\SyncRiderProject.cs:21)
+UnityEditorInternal.ScriptEditorUtility:GetFoundScriptEditorPaths(RuntimePlatform) (at C:\buildslave\unity\build\Editor\Mono\ScriptEditorUtility.cs:154)
+UnityEditor.PreferencesProvider:ReadPreferences() (at C:\buildslave\unity\build\Editor\Mono\PreferencesWindow\PreferencesSettingsProviders.cs:1166)
+UnityEditor.PreferencesProvider:.ctor(String, IEnumerable`1) (at C:\buildslave\unity\build\Editor\Mono\PreferencesWindow\PreferencesSettingsProviders.cs:194)
+UnityEditor.PreferencesProvider:CreateGeneralProvider() (at C:\buildslave\unity\build\Editor\Mono\PreferencesWindow\PreferencesSettingsProviders.cs:200)
+UnityEditor.SettingsService:<FetchSettingProviderFromAttribute>m__2(MethodWithAttribute) (at C:\buildslave\unity\build\Editor\Mono\Settings\SettingsService.cs:73)
+System.Linq.SelectListIterator`2:MoveNext()
+System.Linq.ConcatIterator`1:MoveNext()
+System.Linq.WhereEnumerableIterator`1:ToArray()
+System.Linq.Enumerable:ToArray(IEnumerable`1)
+UnityEditor.SettingsService:FetchSettingsProviders() (at C:\buildslave\unity\build\Editor\Mono\Settings\SettingsService.cs:41)
+UnityEditor.SettingsWindow:Init() (at C:\buildslave\unity\build\Editor\Mono\Settings\SettingsWindow.cs:188)
+UnityEditor.SettingsWindow:OnEnable() (at C:\buildslave\unity\build\Editor\Mono\Settings\SettingsWindow.cs:99)
+UnityEditorInternal.InternalEditorUtility:LoadSerializedFileAndForget(String)
+UnityEditor.WindowLayout:LoadWindowLayout(String, Boolean) (at C:\buildslave\unity\build\Editor\Mono\GUI\WindowLayout.cs:495)
+
+[C:\buildslave\unity\build\Editor/Src/AssetPipeline/PluginManager.cpp line 150] 
+(Filename: C:/buildslave/unity/build/Editor/Mono/SyncRiderProject.cs Line: 131)
+
+Multiple plugins with the same name 'zlib' (found at 'Assets/packages/librdkafka.redist.1.2.1/runtimes/win-x86/native/zlib.dll' and 'Assets/packages/librdkafka.redist.1.2.1/runtimes/win-x64/native/zlib.dll'). That means one or more plugins are set to be compatible with Editor. Only one plugin at the time can be used by Editor.
+Microsoft.Win32.RegistryKey:GetSubKeyNames()
+UnityEditor.RiderPathLocator:CollectPathsFromRegistry(String, List`1) (at C:\buildslave\unity\build\Editor\Mono\SyncRiderProject.cs:131)
+UnityEditor.RiderPathLocator:CollectRiderInfosWindows() (at C:\buildslave\unity\build\Editor\Mono\SyncRiderProject.cs:116)
+UnityEditor.RiderPathLocator:GetAllRiderPaths() (at C:\buildslave\unity\build\Editor\Mono\SyncRiderProject.cs:154)
+UnityEditor.SyncRiderProject:PathCallback() (at C:\buildslave\unity\build\Editor\Mono\SyncRiderProject.cs:21)
+UnityEditorInternal.ScriptEditorUtility:GetFoundScriptEditorPaths(RuntimePlatform) (at C:\buildslave\unity\build\Editor\Mono\ScriptEditorUtility.cs:154)
+UnityEditor.PreferencesProvider:ReadPreferences() (at C:\buildslave\unity\build\Editor\Mono\PreferencesWindow\PreferencesSettingsProviders.cs:1166)
+UnityEditor.PreferencesProvider:.ctor(String, IEnumerable`1) (at C:\buildslave\unity\build\Editor\Mono\PreferencesWindow\PreferencesSettingsProviders.cs:194)
+UnityEditor.PreferencesProvider:CreateGeneralProvider() (at C:\buildslave\unity\build\Editor\Mono\PreferencesWindow\PreferencesSettingsProviders.cs:200)
+UnityEditor.SettingsService:<FetchSettingProviderFromAttribute>m__2(MethodWithAttribute) (at C:\buildslave\unity\build\Editor\Mono\Settings\SettingsService.cs:73)
+System.Linq.SelectListIterator`2:MoveNext()
+System.Linq.ConcatIterator`1:MoveNext()
+System.Linq.WhereEnumerableIterator`1:ToArray()
+System.Linq.Enumerable:ToArray(IEnumerable`1)
+UnityEditor.SettingsService:FetchSettingsProviders() (at C:\buildslave\unity\build\Editor\Mono\Settings\SettingsService.cs:41)
+UnityEditor.SettingsWindow:Init() (at C:\buildslave\unity\build\Editor\Mono\Settings\SettingsWindow.cs:188)
+UnityEditor.SettingsWindow:OnEnable() (at C:\buildslave\unity\build\Editor\Mono\Settings\SettingsWindow.cs:99)
+UnityEditorInternal.InternalEditorUtility:LoadSerializedFileAndForget(String)
+UnityEditor.WindowLayout:LoadWindowLayout(String, Boolean) (at C:\buildslave\unity\build\Editor\Mono\GUI\WindowLayout.cs:495)
+
+[C:\buildslave\unity\build\Editor/Src/AssetPipeline/PluginManager.cpp line 150] 
+(Filename: C:/buildslave/unity/build/Editor/Mono/SyncRiderProject.cs Line: 131)
+
+Multiple plugins with the same name 'msvcp120' (found at 'Assets/packages/librdkafka.redist.1.2.1/runtimes/win-x64/native/msvcp120.dll' and 'Assets/packages/librdkafka.redist.1.2.1/runtimes/win-x86/native/msvcp120.dll'). That means one or more plugins are set to be compatible with Editor. Only one plugin at the time can be used by Editor.
+Microsoft.Win32.RegistryKey:GetSubKeyNames()
+UnityEditor.RiderPathLocator:CollectPathsFromRegistry(String, List`1) (at C:\buildslave\unity\build\Editor\Mono\SyncRiderProject.cs:131)
+UnityEditor.RiderPathLocator:CollectRiderInfosWindows() (at C:\buildslave\unity\build\Editor\Mono\SyncRiderProject.cs:116)
+UnityEditor.RiderPathLocator:GetAllRiderPaths() (at C:\buildslave\unity\build\Editor\Mono\SyncRiderProject.cs:154)
+UnityEditor.SyncRiderProject:PathCallback() (at C:\buildslave\unity\build\Editor\Mono\SyncRiderProject.cs:21)
+UnityEditorInternal.ScriptEditorUtility:GetFoundScriptEditorPaths(RuntimePlatform) (at C:\buildslave\unity\build\Editor\Mono\ScriptEditorUtility.cs:154)
+UnityEditor.PreferencesProvider:ReadPreferences() (at C:\buildslave\unity\build\Editor\Mono\PreferencesWindow\PreferencesSettingsProviders.cs:1166)
+UnityEditor.PreferencesProvider:.ctor(String, IEnumerable`1) (at C:\buildslave\unity\build\Editor\Mono\PreferencesWindow\PreferencesSettingsProviders.cs:194)
+UnityEditor.PreferencesProvider:CreateGeneralProvider() (at C:\buildslave\unity\build\Editor\Mono\PreferencesWindow\PreferencesSettingsProviders.cs:200)
+UnityEditor.SettingsService:<FetchSettingProviderFromAttribute>m__2(MethodWithAttribute) (at C:\buildslave\unity\build\Editor\Mono\Settings\SettingsService.cs:73)
+System.Linq.SelectListIterator`2:MoveNext()
+System.Linq.ConcatIterator`1:MoveNext()
+System.Linq.WhereEnumerableIterator`1:ToArray()
+System.Linq.Enumerable:ToArray(IEnumerable`1)
+UnityEditor.SettingsService:FetchSettingsProviders() (at C:\buildslave\unity\build\Editor\Mono\Settings\SettingsService.cs:41)
+UnityEditor.SettingsWindow:Init() (at C:\buildslave\unity\build\Editor\Mono\Settings\SettingsWindow.cs:188)
+UnityEditor.SettingsWindow:OnEnable() (at C:\buildslave\unity\build\Editor\Mono\Settings\SettingsWindow.cs:99)
+UnityEditorInternal.InternalEditorUtility:LoadSerializedFileAndForget(String)
+UnityEditor.WindowLayout:LoadWindowLayout(String, Boolean) (at C:\buildslave\unity\build\Editor\Mono\GUI\WindowLayout.cs:495)
+
+[C:\buildslave\unity\build\Editor/Src/AssetPipeline/PluginManager.cpp line 150] 
+(Filename: C:/buildslave/unity/build/Editor/Mono/SyncRiderProject.cs Line: 131)
+
+Refreshing native plugins compatible for Editor in 23.32 ms, found 11 plugins.
+<RI> Initializing input.
+<RI> Input initialized.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+- Starting compile Library/ScriptAssemblies/Assembly-CSharp.dll
+Hub Web Socket connection default:(null):reason:29
+Hub Web Socket HTTP protocol init
+Created GICache directory at C:/Users/bitte/AppData/LocalLow/Unity/Caches/GiCache. Took: 0.029s, timestamps: [6.636 - 6.665]
+Issue TrimJob to reduce GI Cache size to maximum 10GB at: 'C:/Users/bitte/AppData/LocalLow/Unity/Caches/GiCache'
+Setting up 6 worker threads for Enlighten.
+  Thread -> id: 2354 -> priority: 1 
+  Thread -> id: 5924 -> priority: 1 
+  Thread -> id: 2e24 -> priority: 1 
+  Thread -> id: 5778 -> priority: 1 
+  Thread -> id: 62ec -> priority: 1 
+  Thread -> id: 1c28 -> priority: 1 
+Hub Web Socket filter pre-establish
+Hub Web Socket connection established
+TrimDiskCacheJob: Current cache size 2mb
+- Finished compile Library/ScriptAssemblies/Assembly-CSharp.dll
+Symbols will be read from Temp\Assembly-CSharp.pdb
+Script Module: Assembly-CSharp.dll
+Pass: 0 took 17 milliseconds
+Pass: 1 took 2 milliseconds
+Reloading assemblies after finishing script compilation.
+Begin MonoManager ReloadAssembly
+Initializing Unity.PackageManager (PackageManager) v2018.3.11 for Unity v2018.3.11f1
+Registering platform support modules:
+Registered platform support modules in: 0.0373282s.
+Native extension for Android target not found
+Native extension for Metro target not found
+Native extension for WebGL target not found
+Native extension for WindowsStandalone target not found
+Multiple plugins with the same name 'libzstd' (found at 'Assets/packages/librdkafka.redist.1.2.1/runtimes/win-x64/native/libzstd.dll' and 'Assets/packages/librdkafka.redist.1.2.1/runtimes/win-x86/native/libzstd.dll'). That means one or more plugins are set to be compatible with Editor. Only one plugin at the time can be used by Editor.
+ 
+(Filename: C:\buildslave\unity\build\Editor/Src/AssetPipeline/PluginManager.cpp Line: 150)
+
+Multiple plugins with the same name 'librdkafka' (found at 'Assets/packages/librdkafka.redist.1.2.1/runtimes/win-x86/native/librdkafka.dll' and 'Assets/packages/librdkafka.redist.1.2.1/runtimes/win-x64/native/librdkafka.dll'). That means one or more plugins are set to be compatible with Editor. Only one plugin at the time can be used by Editor.
+ 
+(Filename: C:\buildslave\unity\build\Editor/Src/AssetPipeline/PluginManager.cpp Line: 150)
+
+Multiple plugins with the same name 'librdkafkacpp' (found at 'Assets/packages/librdkafka.redist.1.2.1/runtimes/win-x64/native/librdkafkacpp.dll' and 'Assets/packages/librdkafka.redist.1.2.1/runtimes/win-x86/native/librdkafkacpp.dll'). That means one or more plugins are set to be compatible with Editor. Only one plugin at the time can be used by Editor.
+ 
+(Filename: C:\buildslave\unity\build\Editor/Src/AssetPipeline/PluginManager.cpp Line: 150)
+
+Multiple plugins with the same name 'msvcr120' (found at 'Assets/packages/librdkafka.redist.1.2.1/runtimes/win-x64/native/msvcr120.dll' and 'Assets/packages/librdkafka.redist.1.2.1/runtimes/win-x86/native/msvcr120.dll'). That means one or more plugins are set to be compatible with Editor. Only one plugin at the time can be used by Editor.
+ 
+(Filename: C:\buildslave\unity\build\Editor/Src/AssetPipeline/PluginManager.cpp Line: 150)
+
+Multiple plugins with the same name 'zlib' (found at 'Assets/packages/librdkafka.redist.1.2.1/runtimes/win-x86/native/zlib.dll' and 'Assets/packages/librdkafka.redist.1.2.1/runtimes/win-x64/native/zlib.dll'). That means one or more plugins are set to be compatible with Editor. Only one plugin at the time can be used by Editor.
+ 
+(Filename: C:\buildslave\unity\build\Editor/Src/AssetPipeline/PluginManager.cpp Line: 150)
+
+Multiple plugins with the same name 'msvcp120' (found at 'Assets/packages/librdkafka.redist.1.2.1/runtimes/win-x64/native/msvcp120.dll' and 'Assets/packages/librdkafka.redist.1.2.1/runtimes/win-x86/native/msvcp120.dll'). That means one or more plugins are set to be compatible with Editor. Only one plugin at the time can be used by Editor.
+ 
+(Filename: C:\buildslave\unity\build\Editor/Src/AssetPipeline/PluginManager.cpp Line: 150)
+
+Refreshing native plugins compatible for Editor in 1.14 ms, found 11 plugins.
+Preloading 1 native plugins for Editor in 0.11 ms.
+Unable to find bridge dll in registry for Microsoft Visual Studio Tools for Unity for C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/Common7/IDE/devenv.exe
+PrecompiledAssemblyException: Multiple precompiled assemblies with the same name Confluent.Kafka.dll included for the current platform. Only one assembly with the same name is allowed per platform. Assembly path: {0}
+  at UnityEditor.Scripting.ScriptCompilation.EditorBuildRules.CreateTargetAssemblies (System.Collections.Generic.IEnumerable`1[T] customScriptAssemblies, System.Collections.Generic.IEnumerable`1[T] precompiledAssemblies) [0x0028e] in C:\buildslave\unity\build\Editor\Mono\Scripting\ScriptCompilation\EditorBuildRules.cs:249 
+  at UnityEditor.Scripting.ScriptCompilation.EditorCompilation.UpdateCustomTargetAssemblies () [0x00032] in C:\buildslave\unity\build\Editor\Mono\Scripting\ScriptCompilation\EditorCompilation.cs:619 
+  at UnityEditor.Scripting.ScriptCompilation.EditorCompilation.SetAllCustomScriptAssemblyJsons (System.String[] paths) [0x002e3] in C:\buildslave\unity\build\Editor\Mono\Scripting\ScriptCompilation\EditorCompilation.cs:729 
+  at UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface.SetAllCustomScriptAssemblyJsons (System.String[] allAssemblyJsons) [0x00007] in C:\buildslave\unity\build\Editor\Mono\Scripting\ScriptCompilation\EditorCompilationInterface.cs:217 
+ 
+(Filename: C:/buildslave/unity/build/Editor/Mono/Scripting/ScriptCompilation/EditorBuildRules.cs Line: 249)
+
+Mono: successfully reloaded assembly
+Multiple plugins with the same name 'libzstd' (found at 'Assets/packages/librdkafka.redist.1.2.1/runtimes/win-x64/native/libzstd.dll' and 'Assets/packages/librdkafka.redist.1.2.1/runtimes/win-x86/native/libzstd.dll'). That means one or more plugins are set to be compatible with Editor. Only one plugin at the time can be used by Editor.
+ 
+(Filename: C:\buildslave\unity\build\Editor/Src/AssetPipeline/PluginManager.cpp Line: 150)
+
+Multiple plugins with the same name 'librdkafka' (found at 'Assets/packages/librdkafka.redist.1.2.1/runtimes/win-x86/native/librdkafka.dll' and 'Assets/packages/librdkafka.redist.1.2.1/runtimes/win-x64/native/librdkafka.dll'). That means one or more plugins are set to be compatible with Editor. Only one plugin at the time can be used by Editor.
+ 
+(Filename: C:\buildslave\unity\build\Editor/Src/AssetPipeline/PluginManager.cpp Line: 150)
+
+Multiple plugins with the same name 'librdkafkacpp' (found at 'Assets/packages/librdkafka.redist.1.2.1/runtimes/win-x64/native/librdkafkacpp.dll' and 'Assets/packages/librdkafka.redist.1.2.1/runtimes/win-x86/native/librdkafkacpp.dll'). That means one or more plugins are set to be compatible with Editor. Only one plugin at the time can be used by Editor.
+ 
+(Filename: C:\buildslave\unity\build\Editor/Src/AssetPipeline/PluginManager.cpp Line: 150)
+
+Multiple plugins with the same name 'msvcr120' (found at 'Assets/packages/librdkafka.redist.1.2.1/runtimes/win-x64/native/msvcr120.dll' and 'Assets/packages/librdkafka.redist.1.2.1/runtimes/win-x86/native/msvcr120.dll'). That means one or more plugins are set to be compatible with Editor. Only one plugin at the time can be used by Editor.
+ 
+(Filename: C:\buildslave\unity\build\Editor/Src/AssetPipeline/PluginManager.cpp Line: 150)
+
+Multiple plugins with the same name 'zlib' (found at 'Assets/packages/librdkafka.redist.1.2.1/runtimes/win-x86/native/zlib.dll' and 'Assets/packages/librdkafka.redist.1.2.1/runtimes/win-x64/native/zlib.dll'). That means one or more plugins are set to be compatible with Editor. Only one plugin at the time can be used by Editor.
+ 
+(Filename: C:\buildslave\unity\build\Editor/Src/AssetPipeline/PluginManager.cpp Line: 150)
+
+Multiple plugins with the same name 'msvcp120' (found at 'Assets/packages/librdkafka.redist.1.2.1/runtimes/win-x64/native/msvcp120.dll' and 'Assets/packages/librdkafka.redist.1.2.1/runtimes/win-x86/native/msvcp120.dll'). That means one or more plugins are set to be compatible with Editor. Only one plugin at the time can be used by Editor.
+ 
+(Filename: C:\buildslave\unity\build\Editor/Src/AssetPipeline/PluginManager.cpp Line: 150)
+
+Refreshing native plugins compatible for Editor in 1.14 ms, found 11 plugins.
+Preloading 1 native plugins for Editor in 0.12 ms.
+- Completed reload, in  1.636 seconds
+Platform modules already initialized, skipping
+Refresh: detecting if any assets need to be imported or removed ...
+Refresh: trashing asset 7d7cea00bc949764dbe9a469781444a6
+Refresh: trashing asset f4a97520e6f7c084da07985545228c53
+Refresh: trashing asset a10e57717c75565409b938ab5d37cb46
+Refresh: trashing asset bba5d3054fe2c8f4e81eab1eb2cd9713
+Refresh: trashing asset 98af7405ddb544b449c125351a370d8c
+Refresh: trashing asset 7d78392c3cb05084980713b5537a163c
+Refresh: trashing asset 3007ee5e7e4cba446867678f69ed95ce
+Refresh: trashing asset 061ffbde20c82944480a13ebad4c1ddb
+PrecompiledAssemblyException: Multiple precompiled assemblies with the same name Confluent.Kafka.dll included for the current platform. Only one assembly with the same name is allowed per platform. Assembly path: {0}
+  at UnityEditor.Scripting.ScriptCompilation.EditorBuildRules.CreateTargetAssemblies (System.Collections.Generic.IEnumerable`1[T] customScriptAssemblies, System.Collections.Generic.IEnumerable`1[T] precompiledAssemblies) [0x0028e] in C:\buildslave\unity\build\Editor\Mono\Scripting\ScriptCompilation\EditorBuildRules.cs:249 
+  at UnityEditor.Scripting.ScriptCompilation.EditorCompilation.UpdateCustomTargetAssemblies () [0x00032] in C:\buildslave\unity\build\Editor\Mono\Scripting\ScriptCompilation\EditorCompilation.cs:619 
+  at UnityEditor.Scripting.ScriptCompilation.EditorCompilation.SetAllCustomScriptAssemblyJsons (System.String[] paths) [0x002e3] in C:\buildslave\unity\build\Editor\Mono\Scripting\ScriptCompilation\EditorCompilation.cs:729 
+  at UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface.SetAllCustomScriptAssemblyJsons (System.String[] allAssemblyJsons) [0x00007] in C:\buildslave\unity\build\Editor\Mono\Scripting\ScriptCompilation\EditorCompilationInterface.cs:217 
+ 
+(Filename: C:/buildslave/unity/build/Editor/Mono/Scripting/ScriptCompilation/EditorBuildRules.cs Line: 249)
+
+PrecompiledAssemblyException: Multiple precompiled assemblies with the same name Confluent.Kafka.dll included for the current platform. Only one assembly with the same name is allowed per platform. Assembly path: {0}
+  at UnityEditor.Scripting.ScriptCompilation.EditorBuildRules.CreateTargetAssemblies (System.Collections.Generic.IEnumerable`1[T] customScriptAssemblies, System.Collections.Generic.IEnumerable`1[T] precompiledAssemblies) [0x0028e] in C:\buildslave\unity\build\Editor\Mono\Scripting\ScriptCompilation\EditorBuildRules.cs:249 
+  at UnityEditor.Scripting.ScriptCompilation.EditorCompilation.UpdateCustomTargetAssemblies () [0x00032] in C:\buildslave\unity\build\Editor\Mono\Scripting\ScriptCompilation\EditorCompilation.cs:619 
+  at UnityEditor.Scripting.ScriptCompilation.EditorCompilation.SetAllCustomScriptAssemblyJsons (System.String[] paths) [0x002e3] in C:\buildslave\unity\build\Editor\Mono\Scripting\ScriptCompilation\EditorCompilation.cs:729 
+  at UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface.SetAllCustomScriptAssemblyJsons (System.String[] allAssemblyJsons) [0x00007] in C:\buildslave\unity\build\Editor\Mono\Scripting\ScriptCompilation\EditorCompilationInterface.cs:217 
+ 
+(Filename: C:/buildslave/unity/build/Editor/Mono/Scripting/ScriptCompilation/EditorBuildRules.cs Line: 249)
+
+Script Compilation Pipeline Post Process Assets time: 0.064281s
+Assembly Updater Post Process Assets time: 0.000001s
+Refreshing native plugins compatible for Editor in 0.82 ms, found 11 plugins.
+Preloading 1 native plugins for Editor in 0.11 ms.
+
+Refresh Completed time: 0.267809s
+	Asset Scan time: 0.024000s
+	Asset Hashing: 0.000000s [0 B, 0.000000 mb/s]
+	Asset Import (Scripting) time: 0.000000s (count: 0)
+	Post Processs Assets (Scripting) time: 0.000000s
+	Asset Rehashing: 0.000000s [0 B, 0.000000 mb/s]
+	Asset Import (Non Scripting) time: 0.000000s (count: 0)
+	Post Process Assets (Non Scripting) time: 0.208674s
+	Dependent Assets to Import Queue time: 0.000379s
+
+[Performance] CurlRequestCheck                        :        3 samples, Peak.  48.8 ms (2.5x), Avg.  19.2 ms, Total. 57.56 ms (0.1%)
+[Performance] PackageManager::RunRequestSynchronously :        4 samples, Peak.  13.9 ms (2.7x), Avg.  5.15 ms, Total. 20.61 ms (0.0%)
+[Performance] ConsoleWindow.OnGUI                     :      954 samples, Peak.  74.1 ms (155.9x), Avg.   476 us, Total. 453.7 ms (1.0%)
+[Performance] InspectorWindow.OnGUI                   :       14 samples, Peak.  4.39 ms (6.6x), Avg.   665 us, Total. 9.314 ms (0.0%)
+[Performance] SceneView.OnGUI                         :       90 samples, Peak.  32.8 ms (19.4x), Avg.  1.69 ms, Total. 151.8 ms (0.3%)
+[Performance] SceneHierarchyWindow.OnGUI              :       12 samples, Peak.  12.9 ms (4.8x), Avg.  2.68 ms, Total. 32.13 ms (0.1%)
+[Performance] ProjectBrowser.OnGUI                    :        8 samples, Peak.  31.7 ms (3.8x), Avg.  8.41 ms, Total. 67.30 ms (0.1%)
+[Performance] ApplicationTickTimer                    :     3709 samples, Peak.  2.01 s (1452.7x), Avg.  1.38 ms, Total. 5.131 s (10.8%)
+[Performance] License.Tick                            :     1061 samples, Peak.  2.20 us (2.9x), Avg.   765 ns, Total. 812.1 us (0.0%)
+[Performance] VCProvider                              :     3709 samples, Peak.  15.9 us (15.9x), Avg.   999 ns, Total. 3.706 ms (0.0%)
+[Performance] MonoCompiler.Tick                       :      186 samples, Peak.  1.76 s (181.7x), Avg.  9.71 ms, Total. 1.805 s (3.8%)
+[Performance] Internal_SwitchSkin                     :     3709 samples, Peak.  1.20 us (17.9x), Avg.  67.0 ns, Total. 248.6 us (0.0%)
+[Performance] UnityConnect.Tick                       :      559 samples, Peak.   205 ms (554.8x), Avg.   370 us, Total. 206.8 ms (0.4%)
+[Performance] HubClient.CheckCurlRequests             :        3 samples, Peak.  20.3 us (2.5x), Avg.  8.00 us, Total. 24.00 us (0.0%)
+[Performance] UnityConnect.PollInfo                   :        8 samples, Peak.  34.6 us (2.3x), Avg.  15.1 us, Total. 120.8 us (0.0%)
+[Performance] Collab.Tick                             :      559 samples, Peak.   166 us (56.4x), Avg.  2.95 us, Total. 1.646 ms (0.0%)
+[Performance] WebView.Tick                            :     1062 samples, Peak.  1.16 ms (8.8x), Avg.   132 us, Total. 140.6 ms (0.3%)
+[Performance] CurlRequest.Tick                        :      364 samples, Peak.  19.7 ms (353.0x), Avg.  55.9 us, Total. 20.35 ms (0.0%)
+[Performance] WebSocketClient.Tick                    :      364 samples, Peak.   710 us (48.3x), Avg.  14.7 us, Total. 5.343 ms (0.0%)
+[Performance] SceneBackgroundTask.Tick                :      220 samples, Peak.   900 ns (2.6x), Avg.   350 ns, Total. 76.90 us (0.0%)
+[Performance] Scheduler.Tick                          :     1735 samples, Peak.  1.70 ms (67.3x), Avg.  25.2 us, Total. 43.74 ms (0.1%)
+[Performance] RepaintAllProfilerWindows               :       44 samples, Peak.   354 us (20.3x), Avg.  17.5 us, Total. 769.8 us (0.0%)
+[Performance] PlayerUpdates.Tick                      :      559 samples, Peak.  63.8 us (2.3x), Avg.  27.5 us, Total. 15.35 ms (0.0%)
+[Performance] GlobalCallbacks                         :     3709 samples, Peak.   797 us (88.0x), Avg.  9.05 us, Total. 33.58 ms (0.1%)
+[Performance] EditorAnalytics.Tick                    :      139 samples, Peak.  4.70 us (2.0x), Avg.  2.32 us, Total. 323.0 us (0.0%)
+[Performance] GI.Tick                                 :      398 samples, Peak.   791 us (18.4x), Avg.  43.1 us, Total. 17.14 ms (0.0%)
+[Performance] Video.Update                            :     3709 samples, Peak.  14.0 us (17.6x), Avg.   795 ns, Total. 2.948 ms (0.0%)
+[Performance] UnitySynchronization.ExecuteTasks       :      559 samples, Peak.  1.02 ms (108.1x), Avg.  9.40 us, Total. 5.255 ms (0.0%)
+[Performance] PreloadManager                          :     3709 samples, Peak.  5.10 ms (502.8x), Avg.  10.1 us, Total. 37.59 ms (0.1%)
+[Performance] SceneTracker                            :     3709 samples, Peak.  36.8 ms (79.6x), Avg.   462 us, Total. 1.713 s (3.6%)
+[Performance] ConsoleLog.Tick                         :      186 samples, Peak.   215 us (34.2x), Avg.  6.28 us, Total. 1.168 ms (0.0%)
+[Performance] HierarchyWindow.Tick                    :      140 samples, Peak.  1.11 ms (135.0x), Avg.  8.19 us, Total. 1.146 ms (0.0%)
+[Performance] Inspector.Tick                          :      140 samples, Peak.  1.38 ms (3.0x), Avg.   457 us, Total. 64.01 ms (0.1%)
+[Performance] Tooltip.Tick                            :      397 samples, Peak.  9.41 ms (92.9x), Avg.   101 us, Total. 40.21 ms (0.1%)
+[Performance] RequestRepaintForPanels                 :     3547 samples, Peak.   297 us (60.0x), Avg.  4.95 us, Total. 17.57 ms (0.0%)
+[Performance] UpdateSceneIfNeeded                     :     3547 samples, Peak.   213 ms (908.3x), Avg.   234 us, Total. 830.8 ms (1.7%)
+[Performance] UpdateVideoTextures                     :     3547 samples, Peak.  6.80 us (17.7x), Avg.   385 ns, Total. 1.364 ms (0.0%)
+[Performance] PackageImporter.Tick                    :      185 samples, Peak.  6.40 us (18.7x), Avg.   343 ns, Total. 63.40 us (0.0%)
+[Performance] InspectorBackground.Tick                :      219 samples, Peak.  3.70 us (3.9x), Avg.   937 ns, Total. 205.2 us (0.0%)
+[Performance] ChangeLayoutIfNeeded                    :     3709 samples, Peak.   800 ns (4.2x), Avg.   189 ns, Total. 701.7 us (0.0%)
+[Performance] AsyncReadManager.ForceCloseFiles        :       38 samples, Peak.   174 us (26.1x), Avg.  6.66 us, Total. 253.1 us (0.0%)
+[Performance] InactiveGI.Tick                         :       54 samples, Peak.  74.8 us (2.1x), Avg.  35.8 us, Total. 1.934 ms (0.0%)
+[Performance] RepaintAll                              :      162 samples, Peak.  4.38 ms (69.9x), Avg.  62.7 us, Total. 10.16 ms (0.0%)
+Refresh: detecting if any assets need to be imported or removed ...
+
+Refresh Completed time: 0.026099s
+	Asset Scan time: 0.024368s
+	Asset Hashing: 0.000000s [0 B, 0.000000 mb/s]
+	Asset Import (Scripting) time: 0.000000s (count: 0)
+	Post Processs Assets (Scripting) time: 0.000000s
+	Asset Rehashing: 0.000000s [0 B, 0.000000 mb/s]
+	Asset Import (Non Scripting) time: 0.000000s (count: 0)
+	Post Process Assets (Non Scripting) time: 0.000000s
+	Dependent Assets to Import Queue time: 0.000000s
+
+Refresh: detecting if any assets need to be imported or removed ...
+
+Refresh Completed time: 0.023201s
+	Asset Scan time: 0.021416s
+	Asset Hashing: 0.000000s [0 B, 0.000000 mb/s]
+	Asset Import (Scripting) time: 0.000000s (count: 0)
+	Post Processs Assets (Scripting) time: 0.000000s
+	Asset Rehashing: 0.000000s [0 B, 0.000000 mb/s]
+	Asset Import (Non Scripting) time: 0.000000s (count: 0)
+	Post Process Assets (Non Scripting) time: 0.000000s
+	Dependent Assets to Import Queue time: 0.000000s
+
+[Package Manager] Server::Kill -- Server was shutdown
+Cleanup mono
+debugger-agent: Unable to listen on 3972
+Checking for leaked weakptr:
+  Found no leaked weakptrs.
+##utp:{"type":"MemoryLeaks","version":2,"phase":"Immediate","time":1572109647969,"processId":14992,"allocatedMemory":588864,"memoryLabels":[{"Default":1180},{"NewDelete":380638},{"Thread":8},{"Manager":640},{"VertexData":528},{"GfxDevice":752},{"Physics":97},{"Serialization":40},{"Terrain":112},{"String":51718},{"DynamicArray":33128},{"HashMap":768},{"Curl":1376},{"PoolAlloc":8},{"ScriptManager":2784},{"Sprites":8},{"GI":480},{"VR":2471},{"Secure":8},{"Image":16400},{"EditorGui":320},{"EditorUtility":1132},{"AssetImporter":32},{"RestService":248},{"License":8},{"UnityConnect":20880},{"Collab":696},{"Upm":69548},{"HubClient":64},{"WebSocketClient":2792}]}
