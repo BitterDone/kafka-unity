@@ -57,3 +57,13 @@ UnityEditor.Scripting.ScriptCompilation.EditorCompilation.UpdateCustomTargetAsse
 UnityEditor.Scripting.ScriptCompilation.EditorCompilation.SetAllCustomScriptAssemblyJsons (System.String[] paths) (at C:/buildslave/unity/build/Editor/Mono/Scripting/ScriptCompilation/EditorCompilation.cs:729)
 UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface.SetAllCustomScriptAssemblyJsons (System.String[] allAssemblyJsons) (at C:/buildslave/unity/build/Editor/Mono/Scripting/ScriptCompilation/EditorCompilationInterface.cs:217)
 UnityEditor.Modules.ModuleManager:RegisterAdditionalUnityExtensions()
+
+--
+
+same for ref as lib
+PrecompiledAssemblyException: Multiple precompiled assemblies with the same name System.Buffers.dll included for the current platform. Only one assembly with the same name is allowed per platform. Assembly path: {0}
+UnityEditor.Scripting.ScriptCompilation.EditorBuildRules.CreateTargetAssemblies (System.Collections.Generic.IEnumerable`1[T] customScriptAssemblies, System.Collections.Generic.IEnumerable`1[T] precompiledAssemblies) (at C:/buildslave/unity/build/Editor/Mono/Scripting/ScriptCompilation/EditorBuildRules.cs:249)
+UnityEditor.Scripting.ScriptCompilation.EditorCompilation.UpdateCustomTargetAssemblies () (at C:/buildslave/unity/build/Editor/Mono/Scripting/ScriptCompilation/EditorCompilation.cs:619)
+UnityEditor.Scripting.ScriptCompilation.EditorCompilation.SetAllCustomScriptAssemblyJsons (System.String[] paths) (at C:/buildslave/unity/build/Editor/Mono/Scripting/ScriptCompilation/EditorCompilation.cs:729)
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface.SetAllCustomScriptAssemblyJsons (System.String[] allAssemblyJsons) (at C:/buildslave/unity/build/Editor/Mono/Scripting/ScriptCompilation/EditorCompilationInterface.cs:217)
+
