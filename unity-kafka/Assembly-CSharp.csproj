@@ -54,7 +54,6 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\KafkaController.cs" />
-     <None Include="Assets\packages\Confluent.Kafka.1.2.1\lib\netstandard1.3\Confluent.Kafka.xml" />
      <None Include="Assets\packages\System.Memory.4.5.0\ref\netstandard1.1\System.Memory.xml" />
      <None Include="Assets\packages\System.Numerics.Vectors.4.4.0\ref\netstandard2.0\System.Numerics.Vectors.xml" />
      <None Include="Assets\packages\System.Buffers.4.4.0\useSharedDesignerContext.txt" />
@@ -69,10 +68,8 @@
      <None Include="Assets\packages\System.Numerics.Vectors.4.4.0\version.txt" />
      <None Include="Assets\packages\System.Memory.4.5.0\useSharedDesignerContext.txt" />
      <None Include="Assets\packages\System.Memory.4.5.0\ref\netstandard2.0\System.Memory.xml" />
-     <None Include="Assets\packages\Confluent.Kafka.1.2.1\lib\net45\Confluent.Kafka.xml" />
      <None Include="Assets\packages\System.Numerics.Vectors.4.4.0\lib\netstandard1.0\System.Numerics.Vectors.xml" />
      <None Include="Assets\packages\System.Buffers.4.4.0\lib\netstandard1.1\System.Buffers.xml" />
-     <None Include="Assets\packages\Confluent.Kafka.1.2.1\lib\net46\Confluent.Kafka.xml" />
      <None Include="Assets\packages\System.Buffers.4.4.0\lib\netstandard2.0\System.Buffers.xml" />
      <None Include="Assets\packages\System.Memory.4.5.0\lib\netstandard2.0\System.Memory.xml" />
      <None Include="Assets\packages\System.Buffers.4.4.0\version.txt" />
@@ -83,7 +80,6 @@
      <None Include="Assets\packages\System.Runtime.CompilerServices.Unsafe.4.5.0\version.txt" />
      <None Include="Assets\packages\System.Numerics.Vectors.4.4.0\lib\net46\System.Numerics.Vectors.xml" />
      <None Include="Assets\packages\Confluent.Kafka.1.2.1\lib\netstandard2.0\Confluent.Kafka.xml" />
-     <None Include="Assets\packages\Confluent.Kafka.1.2.1\lib\netcoreapp2.1\Confluent.Kafka.xml" />
      <None Include="Assets\packages\System.Numerics.Vectors.4.4.0\lib\netstandard2.0\System.Numerics.Vectors.xml" />
      <None Include="Assets\packages\System.Numerics.Vectors.4.4.0\ref\netstandard1.0\System.Numerics.Vectors.xml" />
      <None Include="Assets\packages\System.Memory.4.5.0\lib\netstandard1.1\System.Memory.xml" />
@@ -291,18 +287,6 @@
  </Reference>
  <Reference Include="UnityEngine.SpatialTracking">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2018.3.11f1/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
- </Reference>
- <Reference Include="Confluent.Kafka">
- <HintPath>D:/Repos/PersonalGithub/kafka-unity/unity-kafka/Assets/packages/Confluent.Kafka.1.2.1/lib/net45/Confluent.Kafka.dll</HintPath>
- </Reference>
- <Reference Include="Confluent.Kafka">
- <HintPath>D:/Repos/PersonalGithub/kafka-unity/unity-kafka/Assets/packages/Confluent.Kafka.1.2.1/lib/net46/Confluent.Kafka.dll</HintPath>
- </Reference>
- <Reference Include="Confluent.Kafka">
- <HintPath>D:/Repos/PersonalGithub/kafka-unity/unity-kafka/Assets/packages/Confluent.Kafka.1.2.1/lib/netcoreapp2.1/Confluent.Kafka.dll</HintPath>
- </Reference>
- <Reference Include="Confluent.Kafka">
- <HintPath>D:/Repos/PersonalGithub/kafka-unity/unity-kafka/Assets/packages/Confluent.Kafka.1.2.1/lib/netstandard1.3/Confluent.Kafka.dll</HintPath>
  </Reference>
  <Reference Include="Confluent.Kafka">
  <HintPath>D:/Repos/PersonalGithub/kafka-unity/unity-kafka/Assets/packages/Confluent.Kafka.1.2.1/lib/netstandard2.0/Confluent.Kafka.dll</HintPath>

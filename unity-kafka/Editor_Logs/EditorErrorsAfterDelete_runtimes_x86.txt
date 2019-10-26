@@ -6,10 +6,54 @@ UnityEditor.Scripting.ScriptCompilation.EditorCompilation.UpdateCustomTargetAsse
 UnityEditor.Scripting.ScriptCompilation.EditorCompilation.SetAllCustomScriptAssemblyJsons (System.String[] paths)                                                                                                           (at C:/buildslave/unity/build/Editor/Mono/Scripting/ScriptCompilation/EditorCompilation.cs:729)
 UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface.SetAllCustomScriptAssemblyJsons (System.String[] allAssemblyJsons)                                                                                       (at C:/buildslave/unity/build/Editor/Mono/Scripting/ScriptCompilation/EditorCompilationInterface.cs:217)
 
+Above same as next, formatted for readability
 
 PrecompiledAssemblyException: Multiple precompiled assemblies with the same name Confluent.Kafka.dll included for the current platform. Only one assembly with the same name is allowed per platform. Assembly path: {0}
-UnityEditor.Scripting.ScriptCompilation.EditorBuildRules.CreateTargetAssemblies (System.Collections.Generic.IEnumerable`1[T] customScriptAssemblies, System.Collections.Generic.IEnumerable`1[T] precompiledAssemblies)     (at C:/buildslave/unity/build/Editor/Mono/Scripting/ScriptCompilation/EditorBuildRules.cs:249)
-UnityEditor.Scripting.ScriptCompilation.EditorCompilation.UpdateCustomTargetAssemblies ()                                                                                                                                   (at C:/buildslave/unity/build/Editor/Mono/Scripting/ScriptCompilation/EditorCompilation.cs:619)
-UnityEditor.Scripting.ScriptCompilation.EditorCompilation.SetAllCustomScriptAssemblyJsons (System.String[] paths)                                                                                                           (at C:/buildslave/unity/build/Editor/Mono/Scripting/ScriptCompilation/EditorCompilation.cs:729)
-UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface.SetAllCustomScriptAssemblyJsons (System.String[] allAssemblyJsons)                                                                                       (at C:/buildslave/unity/build/Editor/Mono/Scripting/ScriptCompilation/EditorCompilationInterface.cs:217)
+UnityEditor.Scripting.ScriptCompilation.EditorBuildRules.CreateTargetAssemblies (System.Collections.Generic.IEnumerable`1[T] customScriptAssemblies, System.Collections.Generic.IEnumerable`1[T] precompiledAssemblies) (at C:/buildslave/unity/build/Editor/Mono/Scripting/ScriptCompilation/EditorBuildRules.cs:249)
+UnityEditor.Scripting.ScriptCompilation.EditorCompilation.UpdateCustomTargetAssemblies () (at C:/buildslave/unity/build/Editor/Mono/Scripting/ScriptCompilation/EditorCompilation.cs:619)
+UnityEditor.Scripting.ScriptCompilation.EditorCompilation.SetAllCustomScriptAssemblyJsons (System.String[] paths) (at C:/buildslave/unity/build/Editor/Mono/Scripting/ScriptCompilation/EditorCompilation.cs:729)
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface.SetAllCustomScriptAssemblyJsons (System.String[] allAssemblyJsons) (at C:/buildslave/unity/build/Editor/Mono/Scripting/ScriptCompilation/EditorCompilationInterface.cs:217)
+UnityEditor.Modules.ModuleManager:RegisterAdditionalUnityExtensions()
+
+above same as next, after delete /*
+
+ create mode 100644 unity-kafka/Assets/packages/Confluent.Kafka.1.2.1/lib/lib.7z
+ delete mode 100644 unity-kafka/Assets/packages/Confluent.Kafka.1.2.1/lib/net45.meta
+ delete mode 100644 unity-kafka/Assets/packages/Confluent.Kafka.1.2.1/lib/net45/Confluent.Kafka.dll
+ delete mode 100644 unity-kafka/Assets/packages/Confluent.Kafka.1.2.1/lib/net45/Confluent.Kafka.dll.meta
+ delete mode 100644 unity-kafka/Assets/packages/Confluent.Kafka.1.2.1/lib/net45/Confluent.Kafka.xml
+ delete mode 100644 unity-kafka/Assets/packages/Confluent.Kafka.1.2.1/lib/net45/Confluent.Kafka.xml.meta
+ delete mode 100644 unity-kafka/Assets/packages/Confluent.Kafka.1.2.1/lib/net46.meta
+ delete mode 100644 unity-kafka/Assets/packages/Confluent.Kafka.1.2.1/lib/net46/Confluent.Kafka.dll
+ delete mode 100644 unity-kafka/Assets/packages/Confluent.Kafka.1.2.1/lib/net46/Confluent.Kafka.dll.meta
+ delete mode 100644 unity-kafka/Assets/packages/Confluent.Kafka.1.2.1/lib/net46/Confluent.Kafka.xml
+ delete mode 100644 unity-kafka/Assets/packages/Confluent.Kafka.1.2.1/lib/net46/Confluent.Kafka.xml.meta
+ delete mode 100644 unity-kafka/Assets/packages/Confluent.Kafka.1.2.1/lib/netstandard1.3.meta
+ delete mode 100644 unity-kafka/Assets/packages/Confluent.Kafka.1.2.1/lib/netstandard1.3/Confluent.Kafka.dll
+ delete mode 100644 unity-kafka/Assets/packages/Confluent.Kafka.1.2.1/lib/netstandard1.3/Confluent.Kafka.dll.meta
+ delete mode 100644 unity-kafka/Assets/packages/Confluent.Kafka.1.2.1/lib/netstandard1.3/Confluent.Kafka.xml
+ delete mode 100644 unity-kafka/Assets/packages/Confluent.Kafka.1.2.1/lib/netstandard1.3/Confluent.Kafka.xml.meta
+ create mode 100644 unity-kafka/Editor_Logs/EditorErrorsAfterDelete_runtimes_x86.txt
+
+*/
+
+PrecompiledAssemblyException: Multiple precompiled assemblies with the same name Confluent.Kafka.dll included for the current platform. Only one assembly with the same name is allowed per platform. Assembly path: {0}
+UnityEditor.Scripting.ScriptCompilation.EditorBuildRules.CreateTargetAssemblies (System.Collections.Generic.IEnumerable`1[T] customScriptAssemblies, System.Collections.Generic.IEnumerable`1[T] precompiledAssemblies) (at C:/buildslave/unity/build/Editor/Mono/Scripting/ScriptCompilation/EditorBuildRules.cs:249)
+UnityEditor.Scripting.ScriptCompilation.EditorCompilation.UpdateCustomTargetAssemblies () (at C:/buildslave/unity/build/Editor/Mono/Scripting/ScriptCompilation/EditorCompilation.cs:619)
+UnityEditor.Scripting.ScriptCompilation.EditorCompilation.SetAllCustomScriptAssemblyJsons (System.String[] paths) (at C:/buildslave/unity/build/Editor/Mono/Scripting/ScriptCompilation/EditorCompilation.cs:729)
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface.SetAllCustomScriptAssemblyJsons (System.String[] allAssemblyJsons) (at C:/buildslave/unity/build/Editor/Mono/Scripting/ScriptCompilation/EditorCompilationInterface.cs:217)
+
+/* 2 add'l errors
+Unloading broken assembly Assets/packages/Confluent.Kafka.1.2.1/lib/netcoreapp2.1/Confluent.Kafka.dll, this assembly can cause crashes in the runtime
+Unloading broken assembly Assets/packages/Confluent.Kafka.1.2.1/lib/netstandard2.0/Confluent.Kafka.dll, this assembly can cause crashes in the runtime
+*/
+
+---
+Deleted netcoreapp2.1, not sure if that or should delete netstandard2.0. But next error is for a different file
+
+PrecompiledAssemblyException: Multiple precompiled assemblies with the same name System.Buffers.dll included for the current platform. Only one assembly with the same name is allowed per platform. Assembly path: {0}
+UnityEditor.Scripting.ScriptCompilation.EditorBuildRules.CreateTargetAssemblies (System.Collections.Generic.IEnumerable`1[T] customScriptAssemblies, System.Collections.Generic.IEnumerable`1[T] precompiledAssemblies) (at C:/buildslave/unity/build/Editor/Mono/Scripting/ScriptCompilation/EditorBuildRules.cs:249)
+UnityEditor.Scripting.ScriptCompilation.EditorCompilation.UpdateCustomTargetAssemblies () (at C:/buildslave/unity/build/Editor/Mono/Scripting/ScriptCompilation/EditorCompilation.cs:619)
+UnityEditor.Scripting.ScriptCompilation.EditorCompilation.SetAllCustomScriptAssemblyJsons (System.String[] paths) (at C:/buildslave/unity/build/Editor/Mono/Scripting/ScriptCompilation/EditorCompilation.cs:729)
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface.SetAllCustomScriptAssemblyJsons (System.String[] allAssemblyJsons) (at C:/buildslave/unity/build/Editor/Mono/Scripting/ScriptCompilation/EditorCompilationInterface.cs:217)
 UnityEditor.Modules.ModuleManager:RegisterAdditionalUnityExtensions()
