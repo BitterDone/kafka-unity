@@ -67,3 +67,13 @@ UnityEditor.Scripting.ScriptCompilation.EditorCompilation.UpdateCustomTargetAsse
 UnityEditor.Scripting.ScriptCompilation.EditorCompilation.SetAllCustomScriptAssemblyJsons (System.String[] paths) (at C:/buildslave/unity/build/Editor/Mono/Scripting/ScriptCompilation/EditorCompilation.cs:729)
 UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface.SetAllCustomScriptAssemblyJsons (System.String[] allAssemblyJsons) (at C:/buildslave/unity/build/Editor/Mono/Scripting/ScriptCompilation/EditorCompilationInterface.cs:217)
 
+
+zip lib and ref folders for each
+delete net45, net46, netcoreapp2.1
+only dotnet folder kept is netstandard2.0
+
+System.Runtime.CompilerServices.Unsafe
+System.Numerics.Vectors.4.4.0
+System.Memory.dll
+System.Buffers.dll first ref & incld for ^^
+Confluent.Kafka.dll
