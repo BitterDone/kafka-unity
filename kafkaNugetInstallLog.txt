@@ -1,0 +1,39 @@
+Attempting to gather dependency information for package 'Confluent.Kafka.1.2.1' with respect to project 'Assembly-CSharp', targeting '.NETFramework,Version=v4.7.1'
+Gathering dependency information took 460.33 ms
+Attempting to resolve dependencies for package 'Confluent.Kafka.1.2.1' with DependencyBehavior 'Lowest'
+Resolving dependency information took 0 ms
+Resolving actions to install package 'Confluent.Kafka.1.2.1'
+Resolved actions to install package 'Confluent.Kafka.1.2.1'
+Retrieving package 'Confluent.Kafka 1.2.1' from 'nuget.org'.
+Retrieving package 'librdkafka.redist 1.2.1' from 'nuget.org'.
+Retrieving package 'System.Buffers 4.4.0' from 'nuget.org'.
+Retrieving package 'System.Memory 4.5.0' from 'nuget.org'.
+Retrieving package 'System.Numerics.Vectors 4.4.0' from 'nuget.org'.
+Retrieving package 'System.Runtime.CompilerServices.Unsafe 4.5.0' from 'nuget.org'.
+Adding package 'librdkafka.redist.1.2.1' to folder 'D:\Repos\PersonalGithub\kafka-unity\unity-kafka\Assets\packages'
+Added package 'librdkafka.redist.1.2.1' to folder 'D:\Repos\PersonalGithub\kafka-unity\unity-kafka\Assets\packages'
+Added package 'librdkafka.redist.1.2.1' to 'packages.config'
+Successfully installed 'librdkafka.redist 1.2.1' to Assembly-CSharp
+Adding package 'System.Buffers.4.4.0' to folder 'D:\Repos\PersonalGithub\kafka-unity\unity-kafka\Assets\packages'
+Added package 'System.Buffers.4.4.0' to folder 'D:\Repos\PersonalGithub\kafka-unity\unity-kafka\Assets\packages'
+Added package 'System.Buffers.4.4.0' to 'packages.config'
+Successfully installed 'System.Buffers 4.4.0' to Assembly-CSharp
+Adding package 'System.Numerics.Vectors.4.4.0' to folder 'D:\Repos\PersonalGithub\kafka-unity\unity-kafka\Assets\packages'
+Added package 'System.Numerics.Vectors.4.4.0' to folder 'D:\Repos\PersonalGithub\kafka-unity\unity-kafka\Assets\packages'
+Added package 'System.Numerics.Vectors.4.4.0' to 'packages.config'
+Successfully installed 'System.Numerics.Vectors 4.4.0' to Assembly-CSharp
+Adding package 'System.Runtime.CompilerServices.Unsafe.4.5.0' to folder 'D:\Repos\PersonalGithub\kafka-unity\unity-kafka\Assets\packages'
+Added package 'System.Runtime.CompilerServices.Unsafe.4.5.0' to folder 'D:\Repos\PersonalGithub\kafka-unity\unity-kafka\Assets\packages'
+Added package 'System.Runtime.CompilerServices.Unsafe.4.5.0' to 'packages.config'
+Successfully installed 'System.Runtime.CompilerServices.Unsafe 4.5.0' to Assembly-CSharp
+Adding package 'System.Memory.4.5.0' to folder 'D:\Repos\PersonalGithub\kafka-unity\unity-kafka\Assets\packages'
+Added package 'System.Memory.4.5.0' to folder 'D:\Repos\PersonalGithub\kafka-unity\unity-kafka\Assets\packages'
+Added package 'System.Memory.4.5.0' to 'packages.config'
+Successfully installed 'System.Memory 4.5.0' to Assembly-CSharp
+Adding package 'Confluent.Kafka.1.2.1' to folder 'D:\Repos\PersonalGithub\kafka-unity\unity-kafka\Assets\packages'
+Added package 'Confluent.Kafka.1.2.1' to folder 'D:\Repos\PersonalGithub\kafka-unity\unity-kafka\Assets\packages'
+Added package 'Confluent.Kafka.1.2.1' to 'packages.config'
+Successfully installed 'Confluent.Kafka 1.2.1' to Assembly-CSharp
+Executing nuget actions took 3.77 sec
+Time Elapsed: 00:00:04.4193575
+========== Finished ==========
