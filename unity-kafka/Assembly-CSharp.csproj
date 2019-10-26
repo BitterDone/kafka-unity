@@ -54,10 +54,8 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\KafkaController.cs" />
-     <None Include="Assets\packages\System.Numerics.Vectors.4.4.0\ref\netstandard2.0\System.Numerics.Vectors.xml" />
      <None Include="Assets\packages\System.Buffers.4.4.0\useSharedDesignerContext.txt" />
      <None Include="Assets\packages\System.Numerics.Vectors.4.4.0\useSharedDesignerContext.txt" />
-     <None Include="Assets\packages\System.Numerics.Vectors.4.4.0\ref\net46\System.Numerics.Vectors.xml" />
      <None Include="Assets\packages\librdkafka.redist.1.2.1\LICENSES.txt" />
      <None Include="Assets\packages\System.Memory.4.5.0\version.txt" />
      <None Include="Assets\packages\System.Runtime.CompilerServices.Unsafe.4.5.0\lib\netcoreapp2.0\System.Runtime.CompilerServices.Unsafe.xml" />
@@ -65,7 +63,6 @@
      <None Include="Assets\packages\System.Runtime.CompilerServices.Unsafe.4.5.0\lib\netstandard1.0\System.Runtime.CompilerServices.Unsafe.xml" />
      <None Include="Assets\packages\System.Numerics.Vectors.4.4.0\version.txt" />
      <None Include="Assets\packages\System.Memory.4.5.0\useSharedDesignerContext.txt" />
-     <None Include="Assets\packages\System.Numerics.Vectors.4.4.0\lib\netstandard1.0\System.Numerics.Vectors.xml" />
      <None Include="Assets\packages\System.Buffers.4.4.0\lib\netstandard2.0\System.Buffers.xml" />
      <None Include="Assets\packages\System.Memory.4.5.0\lib\netstandard2.0\System.Memory.xml" />
      <None Include="Assets\packages\System.Buffers.4.4.0\version.txt" />
@@ -74,10 +71,8 @@
      <None Include="Assets\packages\System.Runtime.CompilerServices.Unsafe.4.5.0\lib\netstandard2.0\System.Runtime.CompilerServices.Unsafe.xml" />
      <None Include="Assets\packages\System.Runtime.CompilerServices.Unsafe.4.5.0\ref\netstandard1.0\System.Runtime.CompilerServices.Unsafe.xml" />
      <None Include="Assets\packages\System.Runtime.CompilerServices.Unsafe.4.5.0\version.txt" />
-     <None Include="Assets\packages\System.Numerics.Vectors.4.4.0\lib\net46\System.Numerics.Vectors.xml" />
      <None Include="Assets\packages\Confluent.Kafka.1.2.1\lib\netstandard2.0\Confluent.Kafka.xml" />
      <None Include="Assets\packages\System.Numerics.Vectors.4.4.0\lib\netstandard2.0\System.Numerics.Vectors.xml" />
-     <None Include="Assets\packages\System.Numerics.Vectors.4.4.0\ref\netstandard1.0\System.Numerics.Vectors.xml" />
  <Reference Include="UnityEngine.AIModule">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2018.3.11f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
  </Reference>
@@ -292,25 +287,10 @@
  <HintPath>D:/Repos/PersonalGithub/kafka-unity/unity-kafka/Assets/packages/System.Memory.4.5.0/lib/netstandard2.0/System.Memory.dll</HintPath>
  </Reference>
  <Reference Include="System.Numerics.Vectors">
- <HintPath>D:/Repos/PersonalGithub/kafka-unity/unity-kafka/Assets/packages/System.Numerics.Vectors.4.4.0/lib/net46/System.Numerics.Vectors.dll</HintPath>
- </Reference>
- <Reference Include="System.Numerics.Vectors">
- <HintPath>D:/Repos/PersonalGithub/kafka-unity/unity-kafka/Assets/packages/System.Numerics.Vectors.4.4.0/lib/netstandard1.0/System.Numerics.Vectors.dll</HintPath>
- </Reference>
- <Reference Include="System.Numerics.Vectors">
  <HintPath>D:/Repos/PersonalGithub/kafka-unity/unity-kafka/Assets/packages/System.Numerics.Vectors.4.4.0/lib/netstandard2.0/System.Numerics.Vectors.dll</HintPath>
  </Reference>
  <Reference Include="System.Numerics.Vectors">
  <HintPath>D:/Repos/PersonalGithub/kafka-unity/unity-kafka/Assets/packages/System.Numerics.Vectors.4.4.0/lib/portable-net45+win8+wp8+wpa81/System.Numerics.Vectors.dll</HintPath>
- </Reference>
- <Reference Include="System.Numerics.Vectors">
- <HintPath>D:/Repos/PersonalGithub/kafka-unity/unity-kafka/Assets/packages/System.Numerics.Vectors.4.4.0/ref/net46/System.Numerics.Vectors.dll</HintPath>
- </Reference>
- <Reference Include="System.Numerics.Vectors">
- <HintPath>D:/Repos/PersonalGithub/kafka-unity/unity-kafka/Assets/packages/System.Numerics.Vectors.4.4.0/ref/netstandard1.0/System.Numerics.Vectors.dll</HintPath>
- </Reference>
- <Reference Include="System.Numerics.Vectors">
- <HintPath>D:/Repos/PersonalGithub/kafka-unity/unity-kafka/Assets/packages/System.Numerics.Vectors.4.4.0/ref/netstandard2.0/System.Numerics.Vectors.dll</HintPath>
  </Reference>
  <Reference Include="System.Runtime.CompilerServices.Unsafe">
  <HintPath>D:/Repos/PersonalGithub/kafka-unity/unity-kafka/Assets/packages/System.Runtime.CompilerServices.Unsafe.4.5.0/lib/netcoreapp2.0/System.Runtime.CompilerServices.Unsafe.dll</HintPath>
