@@ -77,3 +77,14 @@ System.Numerics.Vectors.4.4.0
 System.Memory.dll
 System.Buffers.dll first ref & incld for ^^
 Confluent.Kafka.dll
+
+https://stackoverflow.com/questions/17546016/how-can-you-zip-or-unzip-from-the-script-using-only-windows-built-in-capabiliti/26843122#26843122
+
+As of .NET 4.5, PowerShell can do this:
+
+Add-Type -A System.IO.Compression.FileSystem
+[IO.Compression.ZipFile]::CreateFromDirectory('foo', 'foo.zip')
+[IO.Compression.ZipFile]::ExtractToDirectory('foo.zip', 'bar')
+
+To expand upon Steven Penny's PowerShell solution, you can incorporate it into a batch file by calling powershell.exe like this:
+powershell.exe -nologo -noprofile -command "& { Add-Type -A 'System.IO.Compression.FileSystem'; [IO.Compression.ZipFile]::ExtractToDirectory('foo.zip', 'bar'); }"
