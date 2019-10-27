@@ -19,7 +19,7 @@ namespace unitykafka
 		// Start is called before the first frame update
 		void Start()
 		{
-			print("KafkaController start");
+			print("1KafkaController start");
 			c = new ConsumerBuilder<Ignore, string>(getConfig()).Build();
 			c.Subscribe("testTopicName");
 			cts = new CancellationTokenSource();
@@ -30,7 +30,7 @@ namespace unitykafka
 		{
 			if (config == null)
 			{
-				print("Building ConsumerConfig");
+				print("2Building ConsumerConfig");
 				config = new ConsumerConfig
 				{
 					GroupId = "test-consumer-group",
@@ -38,7 +38,7 @@ namespace unitykafka
 					AutoOffsetReset = AutoOffsetReset.Earliest
 				};
 			}
-			print("returned ConsumerConfig");
+			print("3returned ConsumerConfig");
 
 			return config;
 		}
@@ -83,24 +83,32 @@ namespace unitykafka
 		{
 			print("button works");
 			consuming = !consuming;
+			InvokeRepeating("doConsume", 1.0f, 1.0f);
 		}
 
 		void Update()
 		{
-			if (consuming)
-			{
-				print("consuming");
-				//doConsume();
-			}
+			//if (consuming)
+			//{
+			//	print("consuming");
+			//	doConsume();
+			//}
 		}
 
 		void doConsume()
 		{
+			print("doConsume");
 			try
 			{
-				var cr = c.Consume(cts.Token);
-				print($"Consumed message '{cr.Value}' at: '{cr.TopicPartitionOffset}'.");
-				GameLogic.msgList.Add(cr.Value);
+				print("try");
+
+				//var cr = c.Consume(cts.Token);
+				print("cr");
+
+				//print($"Consumed message '{cr.Value}' at: '{cr.TopicPartitionOffset}'.");
+
+				//GameLogic.msgList.Add(cr.Value);
+				print("GameLogic.msgList.Add(cr.Value)");
 			}
 			catch (ConsumeException e)
 			{
@@ -114,6 +122,11 @@ namespace unitykafka
 				// Ensure the consumer leaves the group cleanly and final offsets are committed.
 				c.Close();
 			}
+			finally
+			{
+				print("finally");
+			}
+			print("didConsume");
 		}
 
 		void Update2()

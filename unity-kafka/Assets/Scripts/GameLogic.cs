@@ -13,7 +13,7 @@ namespace unitykafka
 		{
 			msgList = new List<string>();
 			lastCount = msgList.Count;
-			print("Initialized");
+			print("0Initialized");
 		}
 
 		// Update is called once per frame
@@ -29,7 +29,7 @@ namespace unitykafka
 			}
 			else
 			{
-				print("-");
+				print("4+ -");
 			}
 
 		}
