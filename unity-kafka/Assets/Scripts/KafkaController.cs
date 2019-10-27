@@ -102,12 +102,12 @@ namespace unitykafka
 			{
 				print("try");
 
-				//var cr = c.Consume(cts.Token);
+				var cr = c.Consume(cts.Token);
 				print("cr");
 
-				//print($"Consumed message '{cr.Value}' at: '{cr.TopicPartitionOffset}'.");
+				print($"Consumed message '{cr.Value}' at: '{cr.TopicPartitionOffset}'.");
 
-				//GameLogic.msgList.Add(cr.Value);
+				GameLogic.msgList.Add(cr.Value);
 				print("GameLogic.msgList.Add(cr.Value)");
 			}
 			catch (ConsumeException e)
