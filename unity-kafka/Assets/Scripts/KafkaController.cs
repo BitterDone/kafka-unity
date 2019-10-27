@@ -82,33 +82,39 @@ namespace unitykafka
 		public void btn_connect()
 		{
 			print("button works");
-			consuming = true;
+			consuming = !consuming;
 		}
 
 		void Update()
 		{
 			if (consuming)
 			{
-				try
-				{
-					var cr = c.Consume(cts.Token);
-					print($"Consumed message '{cr.Value}' at: '{cr.TopicPartitionOffset}'.");
-					GameLogic.msgList.Add(cr.Value);
-				}
-				catch (ConsumeException e)
-				{
-					print("ConsumeException:");
-					print($"Error occured: {e.Error.Reason}");
-				}
-				catch (OperationCanceledException e)
-				{
-					print("OperationCanceledException:");
-					print(e.ToString());
-					// Ensure the consumer leaves the group cleanly and final offsets are committed.
-					c.Close();
-				}
+				print("consuming");
+				//doConsume();
 			}
-}
+		}
+
+		void doConsume()
+		{
+			try
+			{
+				var cr = c.Consume(cts.Token);
+				print($"Consumed message '{cr.Value}' at: '{cr.TopicPartitionOffset}'.");
+				GameLogic.msgList.Add(cr.Value);
+			}
+			catch (ConsumeException e)
+			{
+				print("ConsumeException:");
+				print($"Error occured: {e.Error.Reason}");
+			}
+			catch (OperationCanceledException e)
+			{
+				print("OperationCanceledException:");
+				print(e.ToString());
+				// Ensure the consumer leaves the group cleanly and final offsets are committed.
+				c.Close();
+			}
+		}
 
 		void Update2()
 		{
