@@ -1,11 +1,13 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 namespace unitykafka
 {
 	public class GameLogic : MonoBehaviour
 	{
+		public Text messageDisplay;
 		public static List<string> msgList;
 		int lastCount = -1;
 		// Start is called before the first frame update
@@ -26,6 +28,7 @@ namespace unitykafka
 				string output = string.Format("New entry -{0}_ at index {1}", msgList[idx], idx);
 				print(output);
 				lastCount = msgList.Count;
+				messageDisplay.text += "\n" + output;
 			}
 			else
 			{
