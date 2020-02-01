@@ -30,10 +30,10 @@ namespace unitykafka
 				lastCount = msgList.Count;
 				messageDisplay.text += "\n" + output;
 			}
-			else
-			{
-				print("4+ -");
-			}
+			//else
+			//{
+			//	print("4+ -");
+			//}
 
 		}
 

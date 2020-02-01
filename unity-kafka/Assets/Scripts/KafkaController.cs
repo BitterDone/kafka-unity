@@ -15,7 +15,7 @@ namespace unitykafka
 		string kafkaServerAddr = "";
 		ConsumerConfig config;
 		IConsumer<Ignore, string> c;
-		CancellationTokenSource cts;
+		// CancellationTokenSource cts;
 		bool consuming = false; // initially, start consuming
 
 
@@ -23,24 +23,28 @@ namespace unitykafka
 		void Start()
 		{
 			print("1KafkaController start");
+
 			c = new ConsumerBuilder<Ignore, string>(getConfig()).Build();
 			c.Subscribe("testTopicName");
-			cts = new CancellationTokenSource();
-			if (ipAddr.Length < 1) { ipAddr = "localhost"; } // 192.168.2.155
-			if (ipPort.Length < 1) { ipPort = "9092"; } // 9092
-			kafkaServerAddr = ipAddr + ":" + ipPort;
-			print("Initialized " + kafkaServerAddr);
+			// cts = new CancellationTokenSource();
+			int count = c.Subscription.Count; c.Subscription.ForEach(sub => print("sub: " + sub + ", type: " + sub.GetType()));
+			print("Subscription count: " + count);
 		}
 
 		ConsumerConfig getConfig()
 		{
 			if (config == null)
 			{
+				if (ipAddr.Length < 1) { ipAddr = "localhost"; } // 192.168.2.155
+				if (ipPort.Length < 1) { ipPort = "9092"; } // 9092
+				kafkaServerAddr = ipAddr + ":" + ipPort;
+				print("1.5 Initialized " + kafkaServerAddr);
+
 				print("2Building ConsumerConfig");
 				config = new ConsumerConfig
 				{
 					GroupId = "test-consumer-group",
-					BootstrapServers = ipAddr + ipPort,
+					BootstrapServers = kafkaServerAddr,
 					AutoOffsetReset = AutoOffsetReset.Earliest
 				};
 			}
@@ -63,29 +67,47 @@ namespace unitykafka
 			{
 				print("try");
 
-				var cr = c.Consume(cts.Token);
-				print("cr");
+				// var cr = c.Consume(cts.Token);
+				var cr = c.Consume(new TimeSpan(0));
 
-				print($"Consumed message '{cr.Value}' at: '{cr.TopicPartitionOffset}'.");
+				if (cr != null)
+				{
+					print("cr");
+					print(cr.Value);
+					print(cr.TopicPartitionOffset);
 
-				GameLogic.msgList.Add(cr.Value);
-				print("GameLogic.msgList.Add(cr.Value)");
+					print($"Consumed message '{cr.Value}' at: '{cr.TopicPartitionOffset}'.");
+
+					GameLogic.msgList.Add(cr.Value);
+					print("GameLogic.msgList.Add(cr.Value)");
+				}
+				else
+				{
+					print("cr == null");
+				}
 			}
 			catch (ConsumeException e)
 			{
-				print("ConsumeException:");
-				print($"Error occured: {e.Error.Reason}");
-			}
-			catch (OperationCanceledException e)
-			{
-				print("OperationCanceledException:");
+				print($"ConsumeException occured:");
 				print(e.ToString());
 				// Ensure the consumer leaves the group cleanly and final offsets are committed.
 				c.Close();
 			}
+			catch (OperationCanceledException e)
+			{
+				print("OperationCanceledException occured:");
+				print(e.ToString());
+			}
+			catch (Exception e)
+			{
+				print($"Exception occured:");
+				print(e.ToString());
+			}
 			finally
 			{
 				print("finally");
+				// Ensure the consumer leaves the group cleanly and final offsets are committed.
+				// c.Close();
 			}
 			print("didConsume");
 		}
