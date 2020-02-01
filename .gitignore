@@ -1,4 +1,8 @@
 [Ll]ibrary/
+Library/PackageCache/*
+Library/ScriptAssemblies/*
+Library/ShaderCache/*
+Library/metadata/*
 [Tt]emp/
 [Oo]bj/
 [Bb]uild/
@@ -14,7 +18,7 @@ ExportedObj/
 .consulo/
 *.csproj
 *.unityproj
-*.sln
+# *.sln # keep?
 *.suo
 *.tmp
 *.user
@@ -51,7 +55,7 @@ todo.txt
 .cache
 src/Confluent.Kafka/runtimes
 Properties
-packages/
+# packages/ # keep the kafka packages
 doc/api/
 doc/_site/
 doc/src
