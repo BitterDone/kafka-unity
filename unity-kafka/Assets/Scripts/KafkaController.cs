@@ -17,18 +17,17 @@ namespace unitykafka
 		IConsumer<Ignore, string> c;
 		// CancellationTokenSource cts;
 		bool consuming = false; // initially, start consuming
-
-
+		
 		// Start is called before the first frame update
 		void Start()
 		{
-			print("1KafkaController start");
+			p("1KafkaController start");
 
 			c = new ConsumerBuilder<Ignore, string>(getConfig()).Build();
 			c.Subscribe("testTopicName");
 			// cts = new CancellationTokenSource();
-			int count = c.Subscription.Count; c.Subscription.ForEach(sub => print("sub: " + sub + ", type: " + sub.GetType()));
-			print("Subscription count: " + count);
+			int count = c.Subscription.Count; c.Subscription.ForEach(sub => p("sub: " + sub + ", type: " + sub.GetType()));
+			p("Subscription count: " + count);
 		}
 
 		ConsumerConfig getConfig()
@@ -38,9 +37,9 @@ namespace unitykafka
 				if (ipAddr.Length < 1) { ipAddr = "localhost"; } // 192.168.2.155
 				if (ipPort.Length < 1) { ipPort = "9092"; } // 9092
 				kafkaServerAddr = ipAddr + ":" + ipPort;
-				print("1.5 Initialized " + kafkaServerAddr);
+				p("1.5 Initialized " + kafkaServerAddr);
 
-				print("2Building ConsumerConfig");
+				p("2Building ConsumerConfig");
 				config = new ConsumerConfig
 				{
 					GroupId = "test-consumer-group",
@@ -48,73 +47,73 @@ namespace unitykafka
 					AutoOffsetReset = AutoOffsetReset.Earliest
 				};
 			}
-			print("3returned ConsumerConfig");
+			p("3returned ConsumerConfig");
 
 			return config;
 		}
 		
 		public void btn_connect()
 		{
-			print("button works");
+			print("button works. !consuming: " + !consuming);
 			consuming = !consuming;
-			InvokeRepeating("doConsume", 1.0f, 1.0f);
+			InvokeRepeating("doConsume", 0.1f, 0.1f);
 		}
 		
 		void doConsume()
 		{
-			print("doConsume");
+			p("doConsume");
 			try
 			{
-				print("try");
+				p("try");
 
 				// var cr = c.Consume(cts.Token);
 				var cr = c.Consume(new TimeSpan(0));
 
 				if (cr != null)
 				{
-					print("cr");
-					print(cr.Value);
-					print(cr.TopicPartitionOffset);
+					p("cr");
+					p(cr.Value);
+					p(cr.TopicPartitionOffset.ToString());
 
-					print($"Consumed message '{cr.Value}' at: '{cr.TopicPartitionOffset}'.");
+					p($"Consumed message '{cr.Value}' at: '{cr.TopicPartitionOffset}'.");
 
 					GameLogic.msgList.Add(cr.Value);
-					print("GameLogic.msgList.Add(cr.Value)");
+					p("GameLogic.msgList.Add(cr.Value)");
 				}
 				else
 				{
-					print("cr == null");
+					p("cr == null");
 				}
 			}
 			catch (ConsumeException e)
 			{
-				print($"ConsumeException occured:");
-				print(e.ToString());
+				p($"ConsumeException occured:");
+				p(e.ToString());
 				// Ensure the consumer leaves the group cleanly and final offsets are committed.
 				c.Close();
 			}
 			catch (OperationCanceledException e)
 			{
-				print("OperationCanceledException occured:");
-				print(e.ToString());
+				p("OperationCanceledException occured:");
+				p(e.ToString());
 			}
 			catch (Exception e)
 			{
-				print($"Exception occured:");
-				print(e.ToString());
+				p($"Exception occured:");
+				p(e.ToString());
 			}
 			finally
 			{
-				print("finally");
+				p("finally");
 				// Ensure the consumer leaves the group cleanly and final offsets are committed.
 				// c.Close();
 			}
-			print("didConsume");
+			p("didConsume");
 		}
 		
-		void print(string msg)
+		void p(string msg)
 		{
-			Debug.Log(msg);
+			// Debug.Log(msg);
 		}
 	}
 
