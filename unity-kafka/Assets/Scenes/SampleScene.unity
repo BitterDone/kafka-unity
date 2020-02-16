@@ -462,6 +462,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   messageDisplay: {fileID: 795528616}
+  blockmanArray: []
+  blockPrefab: {fileID: 4116434936544496493, guid: 67decc09cc06c3d4db5f50c90d08adad,
+    type: 3}
 --- !u!1 &682355558
 GameObject:
   m_ObjectHideFlags: 0
