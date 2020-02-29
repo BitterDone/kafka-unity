@@ -2,6 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 using System.Threading;
 using Confluent.Kafka;
 
@@ -10,6 +11,8 @@ namespace unitykafka
 
 	public class KafkaController : MonoBehaviour
 	{
+        public Button startConsumeButton;
+
 		[SerializeField] public string ipAddr = "";
 		[SerializeField] public string ipPort = "";
 		string kafkaServerAddr = "";
@@ -44,7 +47,7 @@ namespace unitykafka
 				{
 					GroupId = "test-consumer-group",
 					BootstrapServers = kafkaServerAddr,
-					AutoOffsetReset = AutoOffsetReset.Earliest
+					//AutoOffsetReset = AutoOffsetReset.Earliest
 				};
 			}
 			p("3returned ConsumerConfig");
@@ -56,7 +59,8 @@ namespace unitykafka
 		{
 			print("button works. !consuming: " + !consuming);
 			consuming = !consuming;
-			InvokeRepeating("doConsume", 0.1f, 0.1f);
+			InvokeRepeating("doConsume", 0.01f, 0.001f);
+            startConsumeButton.gameObject.SetActive(false);
 		}
 		
 		void doConsume()

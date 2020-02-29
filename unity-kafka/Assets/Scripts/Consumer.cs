@@ -20,7 +20,7 @@ namespace kafka_client
 				// topic/partitions of interest. By default, offsets are committed
 				// automatically, so in this example, consumption will only start from the
 				// earliest message in the topic 'my-topic' the first time you run the program.
-				AutoOffsetReset = AutoOffsetReset.Earliest
+				//AutoOffsetReset = AutoOffsetReset.Earliest
 			};
 
 			using (var c = new ConsumerBuilder<Ignore, string>(conf).Build())
@@ -39,8 +39,9 @@ namespace kafka_client
 					{
 						try
 						{
-							var cr = c.Consume(cts.Token);
-							Console.WriteLine($"Consumed message '{cr.Value}' at: '{cr.TopicPartitionOffset}'.");
+                            //var cr = c.Consume(cts.Token);
+                            var cr = c.Consume(new TimeSpan(0));
+                            Console.WriteLine($"Consumed message '{cr.Value}' at: '{cr.TopicPartitionOffset}'.");
 						}
 						catch (ConsumeException e)
 						{

@@ -10,12 +10,12 @@ namespace unitykafka
 {
 	public class GameLogic : MonoBehaviour
 	{
-		public Text messageDisplay;
+        public Transform jointRoot;
 		public static List<string> msgList;
 		int lastCount = -1;
-		
-		[SerializeField] GameObject[] blockmanArray;
-		public GameObject blockPrefab;
+        public string[] values;
+		GameObject[] jointArray;
+		public GameObject jointPrefab;
 
 		// Start is called before the first frame update
 		void Start()
@@ -23,29 +23,26 @@ namespace unitykafka
 			msgList = new List<string>();
 			lastCount = msgList.Count;
 
-			MakeBlockMan();
-			foreach (GameObject go in blockmanArray)
-			{
-				go.SetActive(true);
-			}
-			print("0Initialized");
+			CreateJoints();
+
+			print("Initialized");
 		}
 
-		void MakeBlockMan()
+		void CreateJoints()
 		{
-			int numberOfJoints = 32; //  (int)JointId.Count;
+            //Debug.Log((int)JointId.Count);
+            int numberOfJoints = 26; //  (int)JointId.Count;
 
-			blockmanArray = new GameObject[numberOfJoints];
+			jointArray = new GameObject[numberOfJoints];
 
 			for (var i = 0; i < numberOfJoints; i++)
 			{
-				GameObject jointCube = Instantiate(blockPrefab, transform);
-				//deactivate it - (its Start() or OnEnable() won't be called)
-				jointCube.SetActive(false);
-				jointCube.name = Enum.GetName(typeof(JointId), i);
-				//why do we multiply by .4?  idk
-				jointCube.transform.localScale = Vector3.one * 0.4f;
-				blockmanArray[i] = jointCube;
+				GameObject joint = Instantiate(jointPrefab, transform);
+                joint.transform.parent = jointRoot;
+                joint.name = Enum.GetName(typeof(JointId), i);
+				joint.transform.localScale = Vector3.one * 0.4f;
+				jointArray[i] = joint;
+                
 			}
 		}
 
@@ -55,87 +52,93 @@ namespace unitykafka
 		{
 			if (msgList.Count != lastCount)
 			{
-				print("new msg");
 				int idx = msgList.Count - 1;
-				//string output = string.Format("New entry -{0}_ at index {1}", msgList[idx], idx);
-				//print(output);
 				lastCount = msgList.Count;
-				//messageDisplay.text += "\n" + output;
 
-				updateBlockman(msgList[idx]);
+				updateJoints(msgList[idx]);
 			}
 		}
 
-		void updateBlockman(string jointData)
+		void updateJoints(string jointData)
 		{
 			string[] parts = jointData.Split('!');
 			string utcDateNow = parts[0];
 			string skeleton = parts[1];
-			// Debug.Log("skeleton: " + skeleton);                     // 0th index is empty string
-			string[] jointArray = skeleton.Substring(1).Split('@'); // string is @joints@joints@joints
+            // 0th index is empty string
+			string[] jointArrayString = skeleton.Substring(1).Split('@'); // string is @joints@joints@joints
+            values = jointArrayString;
 			int index = -1;
-			foreach (string joint in jointArray)
-			{
-				index++;
-				string[] jointPositionQuat = joint.Split('#');
 
-				try
-				{
-					float x = float.Parse(jointPositionQuat[0].Replace("@", string.Empty));
-					float y = float.Parse(jointPositionQuat[1]);
-					float z = float.Parse(jointPositionQuat[2]);
+            for (int i = 0; i < jointArray.Length; i++)
+            {
+                string joint = jointArrayString[i];
+                string[] jointPositionQuat = joint.Split('#');
 
-					float qw = float.Parse(jointPositionQuat[3]);
-					float qx = float.Parse(jointPositionQuat[4]);
-					float qy = float.Parse(jointPositionQuat[5]);
-					float qz = float.Parse(jointPositionQuat[6]);
+                try
+                {
+                    float x = float.Parse(jointPositionQuat[0].Replace("@", string.Empty));
+                    float y = float.Parse(jointPositionQuat[1]);
+                    float z = float.Parse(jointPositionQuat[2]);
 
-					Vector3 v = new Vector3(x, -y, z) * 0.004f;
-					Quaternion r = new Quaternion(qx, qy, qz, qw);
+                    //Rotational data that is not going to be used
+                    //float qw = float.Parse(jointPositionQuat[3]);
+                    //float qx = float.Parse(jointPositionQuat[4]);
+                    //float qy = float.Parse(jointPositionQuat[5]);
+                    //float qz = float.Parse(jointPositionQuat[6]);
 
-					GameObject obj = blockmanArray[index];
-					obj.transform.SetPositionAndRotation(v, r);
-				}
-				catch (FormatException e)
-				{
-					Debug.Log("jointPositionQuat: " + jointPositionQuat);
-					Debug.LogError(e.GetBaseException().ToString());
-					Debug.LogError(e.ToString());
-					Debug.LogError(e.Message);
-				}
-			}
+                    Vector3 v = new Vector3(x, -y, z) * 0.004f;
+                    //Quaternion r = new Quaternion(qx, qy, qz, qw);
 
-		}
+                    //GameObject obj = jointArray[index];
+                    //obj.transform.SetPositionAndRotation(v, r);
 
-		void updateBlockmanSimple(string jointData)
-		{
-			//pos: head 4.902545 -37.4362 701.1378
-			string[] parts = jointData.Split(' ');
-			print("parts: ");
-			print(parts.ToString());
+                    jointArray[index].transform.localPosition = v;// local position inside of root allows for transforming of root anywhere
+                }
+                catch (FormatException e)
+                {
+                    Debug.Log("jointPositionQuat: " + jointPositionQuat);
+                    Debug.LogError(e.GetBaseException().ToString());
+                    Debug.LogError(e.ToString());
+                    Debug.LogError(e.Message);
+                }
+            }
 
-			string jointName = parts[1]; // i typed this when sending
-			float x = float.Parse(parts[2]);
-			float y = float.Parse(parts[3]);
-			float z = float.Parse(parts[4]);
+            #region foreach variation
+            //foreach (string joint in jointArrayString)
+            //{
+            //	index++;
+            //	string[] jointPositionQuat = joint.Split('#');
 
-			float qw = float.Parse(parts[5]);
-			float qx = float.Parse(parts[6]);
-			float qy = float.Parse(parts[7]);
-			float qz = float.Parse(parts[8]);
+            //	try
+            //	{
+            //		float x = float.Parse(jointPositionQuat[0].Replace("@", string.Empty));//negative to flip values for better mirroring
+            //		float y = float.Parse(jointPositionQuat[1]);
+            //		float z = float.Parse(jointPositionQuat[2]);
 
-			print(String.Format("{0} {1} {2} {3} {4} {5} {6} {7} {8}", parts));
+            //                 //Rotational data that is not going to be used
+            //		//float qw = float.Parse(jointPositionQuat[3]);
+            //		//float qx = float.Parse(jointPositionQuat[4]);
+            //		//float qy = float.Parse(jointPositionQuat[5]);
+            //		//float qz = float.Parse(jointPositionQuat[6]);
 
-			Vector3 v = new Vector3(x, -y, z) * 0.004f;
-			Quaternion r = new Quaternion(qx, qy, qz, qw);
+            //		Vector3 v = new Vector3(x, -y, z) * 0.004f;
+            //		//Quaternion r = new Quaternion(qx, qy, qz, qw);
 
-			GameObject obj = blockmanArray[20];
-			obj.transform.SetPositionAndRotation(v, r);
-		}
+            //		//GameObject obj = jointArray[index];
+            //		//obj.transform.SetPositionAndRotation(v, r);
 
-		void print(string msg)
-		{
-			Debug.Log(msg);
-		}
-	}
+            //                 jointArray[index].transform.localPosition = v;
+            //	}
+            //	catch (FormatException e)
+            //	{
+            //		Debug.Log("jointPositionQuat: " + jointPositionQuat);
+            //		Debug.LogError(e.GetBaseException().ToString());
+            //		Debug.LogError(e.ToString());
+            //		Debug.LogError(e.Message);
+            //	}
+            //}
+            #endregion
+
+        }
+    }
 }
