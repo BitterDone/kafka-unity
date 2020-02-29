@@ -43,11 +43,13 @@ namespace unitykafka
 				p("1.5 Initialized " + kafkaServerAddr);
 
 				p("2Building ConsumerConfig");
-				config = new ConsumerConfig
-				{
-					GroupId = "test-consumer-group",
-					BootstrapServers = kafkaServerAddr,
-					//AutoOffsetReset = AutoOffsetReset.Earliest
+                config = new ConsumerConfig
+                {
+                    GroupId = "test-consumer-group",
+                    BootstrapServers = kafkaServerAddr,
+                    AutoOffsetReset = AutoOffsetReset.Latest,
+                    EnableAutoCommit = false
+
 				};
 			}
 			p("3returned ConsumerConfig");

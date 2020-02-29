@@ -14,7 +14,7 @@ namespace unitykafka
 		public static List<string> msgList;
 		int lastCount = -1;
         public string[] values;
-		GameObject[] jointArray;
+		public GameObject[] jointArray;
 		public GameObject jointPrefab;
 
 		// Start is called before the first frame update
@@ -31,19 +31,36 @@ namespace unitykafka
 		void CreateJoints()
 		{
             //Debug.Log((int)JointId.Count);
-            int numberOfJoints = 26; //  (int)JointId.Count;
+            int numberOfJoints = (int)JointId.Count;
 
 			jointArray = new GameObject[numberOfJoints];
 
 			for (var i = 0; i < numberOfJoints; i++)
 			{
 				GameObject joint = Instantiate(jointPrefab, transform);
-                joint.transform.parent = jointRoot;
-                joint.name = Enum.GetName(typeof(JointId), i);
-				joint.transform.localScale = Vector3.one * 0.4f;
-				jointArray[i] = joint;
                 
-			}
+                joint.name = Enum.GetName(typeof(JointId), i);
+
+                if (joint.name.Contains("Right"))
+                {
+                    joint.GetComponent<Renderer>().material.color = Color.red;
+                }
+
+                if (joint.name.Contains("Left"))
+                {
+                    joint.GetComponent<Renderer>().material.color = Color.blue;
+                }
+
+                if (joint.name.Contains("Nose"))
+                {
+                    joint.GetComponent<Renderer>().material.color = Color.green;
+                }
+                joint.transform.localScale = Vector3.one * 0.25f;
+				jointArray[i] = joint;
+                joint.transform.parent = jointRoot;
+            }
+
+            jointRoot.transform.localScale = Vector3.one * .25f;
 		}
 
 
@@ -69,14 +86,15 @@ namespace unitykafka
             values = jointArrayString;
 			int index = -1;
 
-            for (int i = 0; i < jointArray.Length; i++)
+            #region foreach variation
+            foreach (string joint in jointArrayString)
             {
-                string joint = jointArrayString[i];
+                index++;
                 string[] jointPositionQuat = joint.Split('#');
 
                 try
                 {
-                    float x = float.Parse(jointPositionQuat[0].Replace("@", string.Empty));
+                    float x = float.Parse(jointPositionQuat[0].Replace("@", string.Empty));//negative to flip values for better mirroring
                     float y = float.Parse(jointPositionQuat[1]);
                     float z = float.Parse(jointPositionQuat[2]);
 
@@ -92,7 +110,7 @@ namespace unitykafka
                     //GameObject obj = jointArray[index];
                     //obj.transform.SetPositionAndRotation(v, r);
 
-                    jointArray[index].transform.localPosition = v;// local position inside of root allows for transforming of root anywhere
+                    jointArray[index].transform.localPosition = v;
                 }
                 catch (FormatException e)
                 {
@@ -102,41 +120,6 @@ namespace unitykafka
                     Debug.LogError(e.Message);
                 }
             }
-
-            #region foreach variation
-            //foreach (string joint in jointArrayString)
-            //{
-            //	index++;
-            //	string[] jointPositionQuat = joint.Split('#');
-
-            //	try
-            //	{
-            //		float x = float.Parse(jointPositionQuat[0].Replace("@", string.Empty));//negative to flip values for better mirroring
-            //		float y = float.Parse(jointPositionQuat[1]);
-            //		float z = float.Parse(jointPositionQuat[2]);
-
-            //                 //Rotational data that is not going to be used
-            //		//float qw = float.Parse(jointPositionQuat[3]);
-            //		//float qx = float.Parse(jointPositionQuat[4]);
-            //		//float qy = float.Parse(jointPositionQuat[5]);
-            //		//float qz = float.Parse(jointPositionQuat[6]);
-
-            //		Vector3 v = new Vector3(x, -y, z) * 0.004f;
-            //		//Quaternion r = new Quaternion(qx, qy, qz, qw);
-
-            //		//GameObject obj = jointArray[index];
-            //		//obj.transform.SetPositionAndRotation(v, r);
-
-            //                 jointArray[index].transform.localPosition = v;
-            //	}
-            //	catch (FormatException e)
-            //	{
-            //		Debug.Log("jointPositionQuat: " + jointPositionQuat);
-            //		Debug.LogError(e.GetBaseException().ToString());
-            //		Debug.LogError(e.ToString());
-            //		Debug.LogError(e.Message);
-            //	}
-            //}
             #endregion
 
         }
